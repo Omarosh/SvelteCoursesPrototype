@@ -1,0 +1,45 @@
+<script>
+  import { createEventDispatcher } from "svelte";
+
+  const dispatch = createEventDispatcher();
+
+  export let name;
+  export let code;
+  export let credit;
+  export let term;
+
+  let showControls = false;
+
+  const addPoint = () => (credit += 1);
+  const removePoint = () => (credit -= 1);
+  const toggleControls = () => (showControls = !showControls);
+  const onDelete = () => dispatch("removecourse", name);
+</script>
+
+<style>
+  h1 {
+    color: #fffc61;
+    font-size: 0.9em;
+  }
+  h4 {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 0.6em;
+  }
+  .course {
+    margin: 2px;
+    cursor: pointer;
+  }
+  .btn-info {
+  }
+</style>
+
+<div class="text-center course btn btn-info">
+  <h1>{name}</h1>
+  <h4>{code} - {credit} Credit Hours - Term {term}</h4>
+  {#if showControls}
+    <button class="btn" on:click={addPoint}>+1</button>
+    <button class="btn btn-dark" on:click={removePoint}>-1</button>
+    <input type="number" bind:value={credit} />
+  {/if}
+</div>

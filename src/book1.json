@@ -1,0 +1,113 @@
+[{
+        "name": "English Language",
+        "code": "HS101",
+        "credit": 2,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Human Rights",
+        "code": "HS102",
+        "credit": 1,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Maths 1",
+        "code": "MP101",
+        "credit": 3,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Mechanics 1",
+        "code": "MP103",
+        "credit": 3,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Graph 1",
+        "code": "MP105",
+        "credit": 3,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Physics 1",
+        "code": "MP107",
+        "credit": 3,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Engineering Chemistry",
+        "code": "GPE101",
+        "credit": 3,
+        "term": 1,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "History Of Engineering",
+        "code": "HS103",
+        "credit": 1,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Maths 2",
+        "code": "MP102",
+        "credit": 3,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Mechanics 2",
+        "code": "MP104",
+        "credit": 3,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Graph 2",
+        "code": "MP106",
+        "credit": 3,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Physics 2",
+        "code": "MP108",
+        "credit": 3,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Production",
+        "code": "PE102",
+        "credit": 3,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "Computer Programming",
+        "code": "CSE102",
+        "credit": 3,
+        "term": 2,
+        "prerequisites": "_",
+        "satisfies": "_"
+    }
+]
