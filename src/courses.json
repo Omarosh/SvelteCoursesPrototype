@@ -131,7 +131,7 @@
         "code": "HS102",
         "credit": "3",
         "term": "e",
-        "prerequisites": "_",
+        "prerequisites": "CSE102",
         "satisfies": "_"
     }
 ]

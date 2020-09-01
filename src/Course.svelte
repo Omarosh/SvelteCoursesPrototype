@@ -3,10 +3,20 @@
 
   const dispatch = createEventDispatcher();
 
+  export const courseStates = {
+    READY: 1,
+    CLOSED: 2,
+    PASS: 3,
+  };
+  let buttonStateClasses = ["", "btn-info", "btn-danger", "btn-success"];
+
   export let name;
   export let code;
   export let credit;
   export let term;
+  export let state = courseStates.READY;
+
+  $: buttonClass = buttonStateClasses[state];
 
   let showControls = false;
 
@@ -14,6 +24,24 @@
   const removePoint = () => (credit -= 1);
   const toggleControls = () => (showControls = !showControls);
   const onDelete = () => dispatch("removecourse", name);
+
+  function handleClick() {
+    if (state == courseStates.CLOSED) {
+      //Handle closed course
+    } else {
+      if (state === courseStates.READY) {
+        passCourse();
+      } else if (state === courseStates.PASS) {
+        failCourse();
+      }
+    }
+  }
+  function passCourse() {
+    state = courseStates.PASS;
+  }
+  function failCourse() {
+    state = courseStates.READY;
+  }
 </script>
 
 <style>
@@ -34,7 +62,7 @@
   }
 </style>
 
-<div class="text-center course btn btn-info">
+<div on:click={handleClick} class="text-center course btn {buttonClass}">
   <h1>{name}</h1>
   <h4>{code} - {credit} Credit Hours - Term {term}</h4>
   {#if showControls}
