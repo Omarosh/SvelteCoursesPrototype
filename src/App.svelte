@@ -2,7 +2,7 @@
   import Navbar from "./Navbar.svelte";
   import Course from "./Course.svelte";
   import AddCourse from "./AddCourse.svelte";
-  import * as myjson from "./courses.json";
+  import * as myjson from "./power.json";
 
   export const courseStates = {
     READY: 1,
@@ -30,10 +30,21 @@
     if (course.prerequisites == "_") {
       course.state = courseStates.READY;
     } else {
+      course.prerequisites = course.prerequisites.split("&");
       course.state = courseStates.CLOSED;
     }
   }
+  for (let course of courses) {
+    if (course.satisfies == "_") {
+      //handle no satisfies (don nothing)
+    } else {
+      course.satisfies = course.satisfies.split("&");
+    }
+  }
   console.log(courses);
+
+  let passedCourses = [];
+
   // const addCourse = (e) => {
   //   const newCourse = e.detail;
   //   courses = [...courses, newCourse];
@@ -42,6 +53,22 @@
   const removeCourse = (e) => {
     courses = courses.filter((course) => course.name !== e.detail);
   };
+
+  function handlePass(event) {
+    passedCourses.push(event.detail.courseCode);
+    console.log(passedCourses);
+  }
+  function handleFail(event) {
+    let tempCode = event.detail.courseCode;
+
+    for (let i = 0; i < passedCourses.length; i++) {
+      if (tempCode == passedCourses[i]) {
+        passedCourses.splice(i, 1);
+        break;
+      }
+    }
+    console.log(passedCourses);
+  }
 </script>
 
 <style>
@@ -65,7 +92,11 @@
         {#each courses as course}
           {#if course.term == term}
             <Course
-              state={course.state}
+              on:coursePassed={handlePass}
+              on:courseFailed={handleFail}
+              prerequisite={course.prerequisites}
+              satisfies={course.satisfies}
+              bind:state={course.state}
               name={course.name}
               credit={course.credit}
               term={course.term}
@@ -81,7 +112,11 @@
       {#each courses as course}
         {#if course.term == 'e'}
           <Course
-            state={course.state}
+            on:coursePassed={handlePass}
+            on:courseFailed={handleFail}
+            prerequisite={course.prerequisites}
+            satisfies={course.satisfies}
+            bind:state={course.state}
             name={course.name}
             credit={course.credit}
             term={course.term}
@@ -97,7 +132,11 @@
       {#each courses as course}
         {#if course.term == 'h'}
           <Course
-            state={course.state}
+            on:coursePassed={handlePass}
+            on:courseFailed={handleFail}
+            prerequisite={course.prerequisites}
+            satisfies={course.satisfies}
+            bind:state={course.state}
             name={course.name}
             credit={course.credit}
             term={course.term}

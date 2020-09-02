@@ -2,11 +2,10 @@
   import { createEventDispatcher } from "svelte";
 
   const dispatch = createEventDispatcher();
-
   export const courseStates = {
     READY: 1,
     CLOSED: 2,
-    PASS: 3,
+    PASS: 3
   };
   let buttonStateClasses = ["", "btn-info", "btn-danger", "btn-success"];
 
@@ -14,7 +13,10 @@
   export let code;
   export let credit;
   export let term;
+  export let prerequisites;
+  export let satisfies;
   export let state = courseStates.READY;
+  export let passedCourses = [];
 
   $: buttonClass = buttonStateClasses[state];
 
@@ -31,8 +33,16 @@
     } else {
       if (state === courseStates.READY) {
         passCourse();
+        dispatch("coursePassed", {
+          courseCode: code,
+          courseSatisfies: satisfies
+        });
       } else if (state === courseStates.PASS) {
         failCourse();
+        dispatch("courseFailed", {
+          courseCode: code,
+          courseSatisfies: satisfies
+        });
       }
     }
   }

@@ -1,0 +1,561 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مباديء هندسة التصنيع",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "حاسبات وبرمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "حقوق الإنسان",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "نهر النيل : تاريخ وحاضر ومستقبل ",
+        "code": "HUM 023",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الدوائر الكهربية",
+        "code": "EEP 111",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مباديء بث المعلومات",
+        "code": "EEE 181",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مدخل إلي أنظمة الطاقة",
+        "code": "EEP 121",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "التفاضل والتكامل للمتغيرات المتعددة",
+        "code": "EMP 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "ميكانيكا 3",
+        "code": "EMP 123",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "هندسة إنشائية 1",
+        "code": "CVE x19",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "ثقافة عامة ( اختياري ) ",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "القياسات الكهربية و الإلكترونية",
+        "code": "EEP 112",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "النبائط والدوائر الإلكترونية",
+        "code": "EEE 131",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مدخل إلي الدوائر المنطقية والبرمجة",
+        "code": "EEE 141",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "المعادلات التفاضلية",
+        "code": "EMP 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "كتابة تقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مهارات الاتصال والعرض",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "ثقافة هندسية ( اختياري ) ",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الدوائر الكهربية المتقدمة",
+        "code": "EEP 211",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مباديء المعالجات الدقيقة",
+        "code": "EEP 212",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "المواد الكهربية",
+        "code": "EEP 213",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "المجالات الكهرومغناطيسية",
+        "code": "EEP 214",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الجبر الخطى",
+        "code": "EMP x11",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مهارات التفاوض وإدارة الوقت",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اقتصاد هندسي",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "نقل وتوزيع القدرة الكهربية",
+        "code": "EEP 221",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الات التيار المستمر والمحولات",
+        "code": "EEP 231",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "هندسة الإلكترونيات",
+        "code": "EEE 234",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "التحليل المركب والدوال الخاصة",
+        "code": "EMP 217",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "التصميم الميكانيكي والهيدورليكا",
+        "code": "MEC 256",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "أساسيات محطات قوي حرارية",
+        "code": "MEC 213",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "إدارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "معدات القوي الكهربية",
+        "code": "EEP 322",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الآلات المتزامنة",
+        "code": "EEP 332",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "التحكم وتطبيقات الحاسوب",
+        "code": "EEP 341",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "إلكترونيات القوي 1",
+        "code": "EEP 351",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اختياري 1",
+        "code": "EEP 3E1",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الاتصالات في نظم القوي",
+        "code": "EEE 383",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "العقود والكميات والمواصفات ",
+        "code": "ECL x21",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "إلكترونيات القوي 2",
+        "code": "EEP 352",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "وقاية نظم القوي الكهربية",
+        "code": "EEP 361",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الالات الحثية",
+        "code": "EEP 333",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "نظرية التحكم الآلي",
+        "code": "EEP 342",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اقتصاديات الطاقة",
+        "code": "EEP 323",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اختياري 2",
+        "code": "EEP 3E2",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "قضايا معاصرة ( اختياري ) ",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الوقاية الرقمية والتنسيق",
+        "code": "EEP 462",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "نظرية التحكم الحديثة",
+        "code": "EEP 443",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "تحليل شبكات القوي",
+        "code": "EEP 424",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اختياري 3",
+        "code": "EEP 4E3",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اختياري 4",
+        "code": "EEP 4E4",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "القانون والاخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مشروع التخرج 1",
+        "code": "EEP 401",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اتمتة صناعية",
+        "code": "EEP 453",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "الجهد العالي وتطبيقاته",
+        "code": "EEP 425",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "التحريك الكهربى",
+        "code": "EEP 454",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اختياري 5",
+        "code": "EEP 4E5",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "اختياري 6",
+        "code": "EEP 4E6",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "السلامة الكهربية",
+        "code": "EEP 426",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "EEP 402",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_"
+    }
+]
