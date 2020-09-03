@@ -28,7 +28,7 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EMP 042"
     },
     {
         "name": "مباديء هندسة التصنيع",
@@ -116,7 +116,7 @@
         "credit": "3",
         "term": "3",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EEP 112&EEP 211"
     },
     {
         "name": "مباديء بث المعلومات",
@@ -188,7 +188,7 @@
         "credit": "3",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EEP 212"
     },
     {
         "name": "المعادلات التفاضلية",
@@ -252,7 +252,7 @@
         "credit": "3",
         "term": "5",
         "prerequisites": "EMP 032",
-        "satisfies": "_"
+        "satisfies": "EEP 221&EEP 231"
     },
     {
         "name": "الجبر الخطى",
@@ -260,7 +260,7 @@
         "credit": "3",
         "term": "5",
         "prerequisites": "EMP 012",
-        "satisfies": "_"
+        "satisfies": "EEP 342"
     },
     {
         "name": "مهارات التفاوض وإدارة الوقت",
@@ -284,7 +284,7 @@
         "credit": "3",
         "term": "6",
         "prerequisites": "EMP 032",
-        "satisfies": "_"
+        "satisfies": "EEP 322&EEP 361&EEP 424"
     },
     {
         "name": "الات التيار المستمر والمحولات",
@@ -292,7 +292,7 @@
         "credit": "3",
         "term": "6",
         "prerequisites": "EMP 032",
-        "satisfies": "_"
+        "satisfies": "EEP 332"
     },
     {
         "name": "هندسة الإلكترونيات",
@@ -348,7 +348,7 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "EEP 231",
-        "satisfies": "_"
+        "satisfies": "EEP 333"
     },
     {
         "name": "التحكم وتطبيقات الحاسوب",
@@ -356,7 +356,7 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EEP 342"
     },
     {
         "name": "إلكترونيات القوي 1",
@@ -364,7 +364,7 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EEP 352"
     },
     {
         "name": "اختياري 1",
@@ -396,7 +396,7 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EEP 351",
-        "satisfies": "_"
+        "satisfies": "EEP 454&EEP 453"
     },
     {
         "name": "وقاية نظم القوي الكهربية",
@@ -404,7 +404,7 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EEP 221",
-        "satisfies": "_"
+        "satisfies": "EEP 462"
     },
     {
         "name": "الالات الحثية",
@@ -420,7 +420,7 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EMP 012&EEP 341",
-        "satisfies": "_"
+        "satisfies": "EEP 443"
     },
     {
         "name": "اقتصاديات الطاقة",
