@@ -20,7 +20,7 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EMP 032"
     },
     {
         "name": "رسم هندسي 1",
@@ -75,7 +75,7 @@
         "code": "EMP 032",
         "credit": "3",
         "term": "2",
-        "prerequisites": "EMP 011",
+        "prerequisites": "EMP 011&EMP 031",
         "satisfies": "EEP 214"
     },
     {
@@ -558,5 +558,4 @@
         "prerequisites": "EEP 401",
         "satisfies": "_"
     }
-
 ]
