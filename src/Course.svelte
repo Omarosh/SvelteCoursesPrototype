@@ -54,7 +54,7 @@
   const toggleControls = () => (showControls = !showControls);
   const onDelete = () => dispatch("removecourse", name);
 
-  function handleClick() {
+  export function handleClick() {
     if (state == courseStates.CLOSED) {
       //Handle closed course
     } else {

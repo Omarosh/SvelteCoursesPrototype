@@ -3,7 +3,9 @@
   import Course from "./Course.svelte";
   import AddCourse from "./AddCourse.svelte";
   import * as myjson from "./power.json";
+  import { createEventDispatcher } from "svelte";
 
+  const dispatch = createEventDispatcher();
   export const courseStates = {
     READY: 1,
     CLOSED: 2,
@@ -18,6 +20,9 @@
       prerequisites: "",
       satisfies: "",
       state: 0,
+      handleClick: function () {
+        //Some logic here...
+      },
     },
   ];
 
@@ -138,11 +143,36 @@
       }
     }
   }
+
+  function passWholeterm(term) {
+    for (let course of courses) {
+      if (course.term == term) {
+        course.handleClick();
+        // console.log("Hello from " + term);
+        // if (course.state === courseStates.READY) {
+        //   console.log("Hello from State " + course.state);
+        //   course.state = courseStates.PASS;
+        //   console.log("Hello 222 from State " + course.state);
+        //   dispatch("coursePassed", {
+        //     courseCode: course.code,
+        //     courseSatisfies: course.satisfies,
+        //   });
+        // }
+      }
+    }
+  }
 </script>
 
 <style>
   .termHeader {
     color: black;
+  }
+  .hlink {
+    color: cornflowerblue !important;
+    cursor: pointer !important;
+  }
+  .btn-secondary {
+    font-size: 0.6rem;
   }
 </style>
 
@@ -156,13 +186,17 @@
     <p>No courses</p>
   {:else}
     {#each terms as term}
-      <h3 class="termHeader">Term {term} courses:</h3>
+      <h3 class="termHeader">
+        Term {term} courses: <button class="btn btn-secondary" on:click={() => passWholeterm(term)}>Select
+          all courses</button>
+      </h3>
       <div class="row">
         {#each courses as course}
           {#if course.term == term}
             <Course
               on:coursePassed={handlePass}
               on:courseFailed={handleFail}
+              bind:handleClick={course.handleClick}
               bind:prerequisites={course.prerequisites}
               satisfies={course.satisfies}
               bind:state={course.state}
@@ -183,6 +217,7 @@
           <Course
             on:coursePassed={handlePass}
             on:courseFailed={handleFail}
+            bind:handleClick={course.handleClick}
             bind:prerequisites={course.prerequisites}
             satisfies={course.satisfies}
             bind:state={course.state}
@@ -203,6 +238,7 @@
           <Course
             on:coursePassed={handlePass}
             on:courseFailed={handleFail}
+            bind:handleClick={course.handleClick}
             bind:prerequisites={course.prerequisites}
             satisfies={course.satisfies}
             bind:state={course.state}

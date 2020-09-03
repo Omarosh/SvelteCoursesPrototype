@@ -20,7 +20,7 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "EMP 032"
+        "satisfies": "_"
     },
     {
         "name": "رسم هندسي 1",
@@ -75,7 +75,7 @@
         "code": "EMP 032",
         "credit": "3",
         "term": "2",
-        "prerequisites": "EMP 011&EMP 031",
+        "prerequisites": "EMP 011",
         "satisfies": "EEP 214"
     },
     {
@@ -283,7 +283,7 @@
         "code": "EEP 221",
         "credit": "3",
         "term": "6",
-        "prerequisites": "EMP 032",
+        "prerequisites": "EEP 214",
         "satisfies": "EEP 322&EEP 361&EEP 424"
     },
     {
@@ -291,7 +291,7 @@
         "code": "EEP 231",
         "credit": "3",
         "term": "6",
-        "prerequisites": "EMP 032",
+        "prerequisites": "EEP 214",
         "satisfies": "EEP 332"
     },
     {
@@ -419,7 +419,7 @@
         "code": "EEP 342",
         "credit": "3",
         "term": "8",
-        "prerequisites": "EMP 012&EEP 341",
+        "prerequisites": "EMP x11&EEP 341",
         "satisfies": "EEP 443"
     },
     {
@@ -451,7 +451,7 @@
         "code": "EEP 462",
         "credit": "2",
         "term": "9",
-        "prerequisites": "EEP 221",
+        "prerequisites": "EEP 361",
         "satisfies": "_"
     },
     {
