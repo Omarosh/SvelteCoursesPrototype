@@ -5,7 +5,7 @@
   export const courseStates = {
     READY: 1,
     CLOSED: 2,
-    PASS: 3
+    PASS: 3,
   };
   let buttonStateClasses = ["", "btn-info", "btn-danger", "btn-success"];
 
@@ -18,7 +18,34 @@
   export let state = courseStates.READY;
   export let passedCourses = [];
 
+  $: test = handlePrerequisitesChange(prerequisites);
   $: buttonClass = buttonStateClasses[state];
+
+  function handlePrerequisitesChange(prereq) {
+    if (prereq == "_") {
+    } else {
+      for (let course of prereq) {
+        if (course.passed === true) {
+          console.log(
+            course.code +
+              "   JAJAJAJAJ  " +
+              course.passed +
+              "Component COurse:" +
+              code
+          );
+          continue;
+        } else {
+          state = courseStates.CLOSED;
+          return false;
+        }
+      }
+      console.log("State is " + state);
+      if (state == courseStates.CLOSED) {
+        state = courseStates.READY;
+      }
+      return true;
+    }
+  }
 
   let showControls = false;
 
@@ -35,13 +62,13 @@
         passCourse();
         dispatch("coursePassed", {
           courseCode: code,
-          courseSatisfies: satisfies
+          courseSatisfies: satisfies,
         });
       } else if (state === courseStates.PASS) {
         failCourse();
         dispatch("courseFailed", {
           courseCode: code,
-          courseSatisfies: satisfies
+          courseSatisfies: satisfies,
         });
       }
     }

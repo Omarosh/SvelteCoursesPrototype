@@ -20,28 +20,45 @@
       state: 0,
     },
   ];
-  console.log(courses);
 
   let terms = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   let test = Object.entries(myjson);
   courses = test[0][1];
-  console.log(courses);
-  for (let course of courses) {
-    if (course.prerequisites == "_") {
-      course.state = courseStates.READY;
-    } else {
-      course.prerequisites = course.prerequisites.split("&");
-      course.state = courseStates.CLOSED;
+  initPrereq();
+  function initPrereq() {
+    for (let course of courses) {
+      if (course.prerequisites == "_") {
+        course.state = courseStates.READY;
+      } else {
+        course.prerequisites = course.prerequisites.split("&");
+        course.state = courseStates.CLOSED;
+      }
     }
-  }
-  for (let course of courses) {
-    if (course.satisfies == "_") {
-      //handle no satisfies (don nothing)
-    } else {
-      course.satisfies = course.satisfies.split("&");
+    console.log("SPLIT");
+    console.log(courses);
+    for (let course of courses) {
+      if (course.prerequisites == "_") {
+      } else {
+        for (let i = 0; i < course.prerequisites.length; i++) {
+          course.prerequisites[i] = {
+            code: course.prerequisites[i],
+            passed: false,
+          };
+        }
+      }
     }
+    console.log("AddingPassed");
+    console.log(courses);
+
+    for (let course of courses) {
+      if (course.satisfies == "_") {
+        //handle no satisfies (don nothing)
+      } else {
+        course.satisfies = course.satisfies.split("&");
+      }
+    }
+    console.log(courses);
   }
-  console.log(courses);
 
   let passedCourses = [];
 
@@ -55,19 +72,71 @@
   };
 
   function handlePass(event) {
-    passedCourses.push(event.detail.courseCode);
+    let tempCode = event.detail.courseCode;
+    passedCourses.push(tempCode);
     console.log(passedCourses);
+
+    for (let satisfiedCourse of event.detail.courseSatisfies) {
+      console.log("Satisfies are: " + satisfiedCourse);
+      for (let j = 0; j < courses.length; j++) {
+        if (satisfiedCourse === courses[j].code) {
+          console.log("Found Satisfies are: " + satisfiedCourse);
+          for (let k = 0; k < courses[j].prerequisites.length; k++) {
+            if (courses[j].prerequisites[k].code === tempCode) {
+              courses[j].prerequisites[k].passed = true;
+              console.log(
+                courses[j].name +
+                  " has changed prereq " +
+                  courses[j].prerequisites[k].code +
+                  " Pass value to true"
+              );
+            }
+          }
+
+          break;
+        }
+      }
+    }
+    console.log("hiiii");
+    console.log(courses);
   }
   function handleFail(event) {
     let tempCode = event.detail.courseCode;
 
-    for (let i = 0; i < passedCourses.length; i++) {
-      if (tempCode == passedCourses[i]) {
-        passedCourses.splice(i, 1);
+    deleteCourseFromArray(tempCode, passedCourses);
+
+    for (let satisfiedCourse of event.detail.courseSatisfies) {
+      console.log("Satisfies are: " + satisfiedCourse);
+      for (let j = 0; j < courses.length; j++) {
+        if (satisfiedCourse === courses[j].code) {
+          console.log("Found Satisfies are: " + satisfiedCourse);
+          for (let k = 0; k < courses[j].prerequisites.length; k++) {
+            if (courses[j].prerequisites[k].code === tempCode) {
+              courses[j].prerequisites[k].passed = false;
+              console.log(
+                courses[j].name +
+                  " has changed prereq " +
+                  courses[j].prerequisites[k].code +
+                  " Pass value to true"
+              );
+            }
+          }
+
+          break;
+        }
+      }
+    }
+
+    console.log(passedCourses);
+  }
+
+  function deleteCourseFromArray(courseCode, array) {
+    for (let i = 0; i < array.length; i++) {
+      if (courseCode === array[i]) {
+        array.splice(i, 1);
         break;
       }
     }
-    console.log(passedCourses);
   }
 </script>
 
@@ -94,7 +163,7 @@
             <Course
               on:coursePassed={handlePass}
               on:courseFailed={handleFail}
-              prerequisite={course.prerequisites}
+              bind:prerequisites={course.prerequisites}
               satisfies={course.satisfies}
               bind:state={course.state}
               name={course.name}
@@ -114,7 +183,7 @@
           <Course
             on:coursePassed={handlePass}
             on:courseFailed={handleFail}
-            prerequisite={course.prerequisites}
+            bind:prerequisites={course.prerequisites}
             satisfies={course.satisfies}
             bind:state={course.state}
             name={course.name}
@@ -127,14 +196,14 @@
     </div>
     <br />
 
-    <h3 class="termHeader">Humanity Courses:</h3>
+    <h3 class="termHeader" />
     <div class="row">
       {#each courses as course}
         {#if course.term == 'h'}
           <Course
             on:coursePassed={handlePass}
             on:courseFailed={handleFail}
-            prerequisite={course.prerequisites}
+            bind:prerequisites={course.prerequisites}
             satisfies={course.satisfies}
             bind:state={course.state}
             name={course.name}

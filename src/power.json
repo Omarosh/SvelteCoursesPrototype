@@ -4,7 +4,7 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EMP 012&EMP 032"
     },
     {
         "name": "ميكانيكا 1",
@@ -12,7 +12,7 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EMP 022&CVE x19"
     },
     {
         "name": "فيزياء 1",
@@ -59,15 +59,15 @@
         "code": "EMP 012",
         "credit": "3",
         "term": "2",
-        "prerequisites": "_",
-        "satisfies": "_"
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 113&EMP x11"
     },
     {
         "name": "ميكانيكا 2",
         "code": "EMP 022",
         "credit": "3",
         "term": "2",
-        "prerequisites": "_",
+        "prerequisites": "EMP 021",
         "satisfies": "_"
     },
     {
@@ -75,15 +75,15 @@
         "code": "EMP 032",
         "credit": "3",
         "term": "2",
-        "prerequisites": "_",
-        "satisfies": "_"
+        "prerequisites": "EMP 011",
+        "satisfies": "EEP 214"
     },
     {
         "name": "رسم هندسي 2",
         "code": "EMP 042",
         "credit": "3",
         "term": "2",
-        "prerequisites": "_",
+        "prerequisites": "EMP 041",
         "satisfies": "_"
     },
     {
@@ -139,7 +139,7 @@
         "code": "EMP 113",
         "credit": "3",
         "term": "3",
-        "prerequisites": "_",
+        "prerequisites": "EMP 012",
         "satisfies": "_"
     },
     {
@@ -155,7 +155,7 @@
         "code": "CVE x19",
         "credit": "2",
         "term": "3",
-        "prerequisites": "_",
+        "prerequisites": "EMP 021",
         "satisfies": "_"
     },
     {
@@ -171,7 +171,7 @@
         "code": "EEP 112",
         "credit": "3",
         "term": "4",
-        "prerequisites": "_",
+        "prerequisites": "EEP 111",
         "satisfies": "_"
     },
     {
@@ -227,7 +227,7 @@
         "code": "EEP 211",
         "credit": "3",
         "term": "5",
-        "prerequisites": "_",
+        "prerequisites": "EEP 111",
         "satisfies": "_"
     },
     {
@@ -235,7 +235,7 @@
         "code": "EEP 212",
         "credit": "3",
         "term": "5",
-        "prerequisites": "_",
+        "prerequisites": "EEE 141",
         "satisfies": "_"
     },
     {
@@ -251,7 +251,7 @@
         "code": "EEP 214",
         "credit": "3",
         "term": "5",
-        "prerequisites": "_",
+        "prerequisites": "EMP 032",
         "satisfies": "_"
     },
     {
@@ -259,7 +259,7 @@
         "code": "EMP x11",
         "credit": "3",
         "term": "5",
-        "prerequisites": "_",
+        "prerequisites": "EMP 012",
         "satisfies": "_"
     },
     {
@@ -283,7 +283,7 @@
         "code": "EEP 221",
         "credit": "3",
         "term": "6",
-        "prerequisites": "_",
+        "prerequisites": "EMP 032",
         "satisfies": "_"
     },
     {
@@ -291,7 +291,7 @@
         "code": "EEP 231",
         "credit": "3",
         "term": "6",
-        "prerequisites": "_",
+        "prerequisites": "EMP 032",
         "satisfies": "_"
     },
     {
@@ -339,7 +339,7 @@
         "code": "EEP 322",
         "credit": "3",
         "term": "7",
-        "prerequisites": "_",
+        "prerequisites": "EEP 221",
         "satisfies": "_"
     },
     {
@@ -347,7 +347,7 @@
         "code": "EEP 332",
         "credit": "3",
         "term": "7",
-        "prerequisites": "_",
+        "prerequisites": "EEP 231",
         "satisfies": "_"
     },
     {
@@ -371,7 +371,7 @@
         "code": "EEP 3E1",
         "credit": "2",
         "term": "7",
-        "prerequisites": "_",
+        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
         "satisfies": "_"
     },
     {
@@ -395,7 +395,7 @@
         "code": "EEP 352",
         "credit": "3",
         "term": "8",
-        "prerequisites": "_",
+        "prerequisites": "EEP 351",
         "satisfies": "_"
     },
     {
@@ -403,7 +403,7 @@
         "code": "EEP 361",
         "credit": "3",
         "term": "8",
-        "prerequisites": "_",
+        "prerequisites": "EEP 221",
         "satisfies": "_"
     },
     {
@@ -411,7 +411,7 @@
         "code": "EEP 333",
         "credit": "3",
         "term": "8",
-        "prerequisites": "_",
+        "prerequisites": "EEP 332",
         "satisfies": "_"
     },
     {
@@ -419,7 +419,7 @@
         "code": "EEP 342",
         "credit": "3",
         "term": "8",
-        "prerequisites": "_",
+        "prerequisites": "EMP 012&EEP 341",
         "satisfies": "_"
     },
     {
@@ -435,7 +435,7 @@
         "code": "EEP 3E2",
         "credit": "2",
         "term": "8",
-        "prerequisites": "_",
+        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
         "satisfies": "_"
     },
     {
@@ -451,7 +451,7 @@
         "code": "EEP 462",
         "credit": "2",
         "term": "9",
-        "prerequisites": "_",
+        "prerequisites": "EEP 221",
         "satisfies": "_"
     },
     {
@@ -459,7 +459,7 @@
         "code": "EEP 443",
         "credit": "3",
         "term": "9",
-        "prerequisites": "_",
+        "prerequisites": "EEP 342",
         "satisfies": "_"
     },
     {
@@ -467,7 +467,7 @@
         "code": "EEP 424",
         "credit": "3",
         "term": "9",
-        "prerequisites": "_",
+        "prerequisites": "EEP 221",
         "satisfies": "_"
     },
     {
@@ -475,7 +475,7 @@
         "code": "EEP 4E3",
         "credit": "2",
         "term": "9",
-        "prerequisites": "_",
+        "prerequisites": "طبقاً لجدول المقرر الاختياري",
         "satisfies": "_"
     },
     {
@@ -483,7 +483,7 @@
         "code": "EEP 4E4",
         "credit": "2",
         "term": "9",
-        "prerequisites": "_",
+        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
         "satisfies": "_"
     },
     {
@@ -499,7 +499,7 @@
         "code": "EEP 401",
         "credit": "2",
         "term": "9",
-        "prerequisites": "_",
+        "prerequisites": "اجتياز 130 ساعة معتمدة",
         "satisfies": "_"
     },
     {
@@ -507,7 +507,7 @@
         "code": "EEP 453",
         "credit": "3",
         "term": "10",
-        "prerequisites": "_",
+        "prerequisites": "EEP 352",
         "satisfies": "_"
     },
     {
@@ -523,7 +523,7 @@
         "code": "EEP 454",
         "credit": "3",
         "term": "10",
-        "prerequisites": "_",
+        "prerequisites": "EEP 352",
         "satisfies": "_"
     },
     {
@@ -531,7 +531,7 @@
         "code": "EEP 4E5",
         "credit": "2",
         "term": "10",
-        "prerequisites": "_",
+        "prerequisites": "طبقاً لجدول المقرر الاختياري",
         "satisfies": "_"
     },
     {
@@ -539,7 +539,7 @@
         "code": "EEP 4E6",
         "credit": "2",
         "term": "10",
-        "prerequisites": "_",
+        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
         "satisfies": "_"
     },
     {
@@ -555,7 +555,8 @@
         "code": "EEP 402",
         "credit": "2",
         "term": "10",
-        "prerequisites": "_",
+        "prerequisites": "EEP 401",
         "satisfies": "_"
     }
+
 ]
