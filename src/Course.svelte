@@ -1,6 +1,7 @@
 <script>
   import { createEventDispatcher } from "svelte";
   import * as animateScroll from "svelte-scrollto";
+  import SvelteTooltip from "svelte-tooltip";
 
   const dispatch = createEventDispatcher();
   export const courseStates = {
@@ -148,6 +149,20 @@
   function failCourse() {
     state = courseStates.READY;
   }
+
+  let tooltipText = "prerequisites: ";
+  let tooltipToggle = true;
+  for (let p of prerequisites) {
+    if (tooltipToggle) {
+      tooltipText += "(" + p.code + ") ";
+      tooltipToggle = false;
+    } else {
+      tooltipText += ", (" + p.code + ") ";
+    }
+  }
+  if (prerequisites == "_") {
+    tooltipText = "No prerequisites";
+  }
 </script>
 
 <style>
@@ -172,14 +187,20 @@
   .btn-warning h1 {
     color: darkred;
   }
+  .tool {
+    color: white;
+    opacity: 0.8 !important;
+  }
 </style>
 
-<div on:click={handleOnClick} class="text-center course btn {buttonClass}">
-  <h1>{name}</h1>
-  <h4>{code} - {credit} Credit Hours</h4>
-  {#if showControls}
-    <button class="btn" on:click={addPoint}>+1</button>
-    <button class="btn btn-dark" on:click={removePoint}>-1</button>
-    <input type="number" bind:value={credit} />
-  {/if}
-</div>
+<SvelteTooltip class="tool" tip={tooltipText} color="#15ebdc" bottom>
+  <div on:click={handleOnClick} class="text-center course btn {buttonClass}">
+    <h1>{name}</h1>
+    <h4>{code} - {credit} Credit Hours</h4>
+    {#if showControls}
+      <button class="btn" on:click={addPoint}>+1</button>
+      <button class="btn btn-dark" on:click={removePoint}>-1</button>
+      <input type="number" bind:value={credit} />
+    {/if}
+  </div>
+</SvelteTooltip>
