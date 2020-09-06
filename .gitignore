@@ -2,3 +2,4 @@
 /public/build/
 
 .DS_Store
+node_modules/svelte-tooltip/src/SvelteTooltip.svelte
