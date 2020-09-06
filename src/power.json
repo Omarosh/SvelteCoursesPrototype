@@ -4,7 +4,8 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "EMP 012&EMP 032"
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
     },
     {
         "name": "ميكانيكا 1",
@@ -12,7 +13,8 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "EMP 022&CVE x19"
+        "satisfies": "EMP 022&CVE x19",
+        "courseClass": "main"
     },
     {
         "name": "فيزياء 1",
@@ -20,7 +22,8 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "رسم هندسي 1",
@@ -28,7 +31,8 @@
         "credit": "3",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "EMP 042"
+        "satisfies": "EMP 042",
+        "courseClass": "main"
     },
     {
         "name": "مباديء هندسة التصنيع",
@@ -36,7 +40,8 @@
         "credit": "2",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "حاسبات وبرمجة",
@@ -44,7 +49,8 @@
         "credit": "2",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "حقوق الإنسان",
@@ -52,7 +58,8 @@
         "credit": "1",
         "term": "1",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "رياضيات 2",
@@ -60,7 +67,8 @@
         "credit": "3",
         "term": "2",
         "prerequisites": "EMP 011",
-        "satisfies": "EMP 113&EMP x11"
+        "satisfies": "EMP 113&EMP x11",
+        "courseClass": "main"
     },
     {
         "name": "ميكانيكا 2",
@@ -68,7 +76,8 @@
         "credit": "3",
         "term": "2",
         "prerequisites": "EMP 021",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "فيزياء 2",
@@ -76,7 +85,8 @@
         "credit": "3",
         "term": "2",
         "prerequisites": "EMP 011",
-        "satisfies": "EEP 214"
+        "satisfies": "EEP 214",
+        "courseClass": "main"
     },
     {
         "name": "رسم هندسي 2",
@@ -84,7 +94,8 @@
         "credit": "3",
         "term": "2",
         "prerequisites": "EMP 041",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "كيمياء هندسية",
@@ -92,7 +103,8 @@
         "credit": "2",
         "term": "2",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "لغة إنجليزية",
@@ -100,7 +112,8 @@
         "credit": "1",
         "term": "2",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "نهر النيل : تاريخ وحاضر ومستقبل ",
@@ -108,7 +121,8 @@
         "credit": "2",
         "term": "2",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "الدوائر الكهربية",
@@ -116,7 +130,8 @@
         "credit": "3",
         "term": "3",
         "prerequisites": "_",
-        "satisfies": "EEP 112&EEP 211"
+        "satisfies": "EEP 112&EEP 211",
+        "courseClass": "main"
     },
     {
         "name": "مباديء بث المعلومات",
@@ -124,7 +139,8 @@
         "credit": "3",
         "term": "3",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "مدخل إلي أنظمة الطاقة",
@@ -132,7 +148,8 @@
         "credit": "3",
         "term": "3",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "التفاضل والتكامل للمتغيرات المتعددة",
@@ -140,7 +157,8 @@
         "credit": "3",
         "term": "3",
         "prerequisites": "EMP 012",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "ميكانيكا 3",
@@ -148,7 +166,8 @@
         "credit": "3",
         "term": "3",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "هندسة إنشائية 1",
@@ -156,7 +175,8 @@
         "credit": "2",
         "term": "3",
         "prerequisites": "EMP 021",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "ثقافة عامة ( اختياري ) ",
@@ -164,7 +184,8 @@
         "credit": "1",
         "term": "3",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "القياسات الكهربية و الإلكترونية",
@@ -172,7 +193,8 @@
         "credit": "3",
         "term": "4",
         "prerequisites": "EEP 111",
-        "satisfies": "_"
+        "satisfies": "EEP 312",
+        "courseClass": "main"
     },
     {
         "name": "النبائط والدوائر الإلكترونية",
@@ -180,7 +202,8 @@
         "credit": "3",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "مدخل إلي الدوائر المنطقية والبرمجة",
@@ -188,7 +211,8 @@
         "credit": "3",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "EEP 212"
+        "satisfies": "EEP 212",
+        "courseClass": "main"
     },
     {
         "name": "المعادلات التفاضلية",
@@ -196,7 +220,8 @@
         "credit": "3",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "كتابة تقنية",
@@ -204,7 +229,8 @@
         "credit": "2",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "مهارات الاتصال والعرض",
@@ -212,7 +238,8 @@
         "credit": "1",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "ثقافة هندسية ( اختياري ) ",
@@ -220,7 +247,8 @@
         "credit": "2",
         "term": "4",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "الدوائر الكهربية المتقدمة",
@@ -228,7 +256,8 @@
         "credit": "3",
         "term": "5",
         "prerequisites": "EEP 111",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "مباديء المعالجات الدقيقة",
@@ -236,7 +265,8 @@
         "credit": "3",
         "term": "5",
         "prerequisites": "EEE 141",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "المواد الكهربية",
@@ -244,7 +274,8 @@
         "credit": "2",
         "term": "5",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "المجالات الكهرومغناطيسية",
@@ -252,7 +283,8 @@
         "credit": "3",
         "term": "5",
         "prerequisites": "EMP 032",
-        "satisfies": "EEP 221&EEP 231"
+        "satisfies": "EEP 221&EEP 231",
+        "courseClass": "main"
     },
     {
         "name": "الجبر الخطى",
@@ -260,7 +292,8 @@
         "credit": "3",
         "term": "5",
         "prerequisites": "EMP 012",
-        "satisfies": "EEP 342"
+        "satisfies": "EEP 342",
+        "courseClass": "main"
     },
     {
         "name": "مهارات التفاوض وإدارة الوقت",
@@ -268,7 +301,8 @@
         "credit": "1",
         "term": "5",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "اقتصاد هندسي",
@@ -276,7 +310,8 @@
         "credit": "2",
         "term": "5",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "نقل وتوزيع القدرة الكهربية",
@@ -284,7 +319,8 @@
         "credit": "3",
         "term": "6",
         "prerequisites": "EEP 214",
-        "satisfies": "EEP 322&EEP 361&EEP 424"
+        "satisfies": "EEP 322&EEP 361&EEP 424",
+        "courseClass": "main"
     },
     {
         "name": "الات التيار المستمر والمحولات",
@@ -292,7 +328,8 @@
         "credit": "3",
         "term": "6",
         "prerequisites": "EEP 214",
-        "satisfies": "EEP 332"
+        "satisfies": "EEP 332",
+        "courseClass": "main"
     },
     {
         "name": "هندسة الإلكترونيات",
@@ -300,7 +337,8 @@
         "credit": "2",
         "term": "6",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "التحليل المركب والدوال الخاصة",
@@ -308,7 +346,8 @@
         "credit": "3",
         "term": "6",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "EEP 413",
+        "courseClass": "main"
     },
     {
         "name": "التصميم الميكانيكي والهيدورليكا",
@@ -316,7 +355,8 @@
         "credit": "2",
         "term": "6",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "أساسيات محطات قوي حرارية",
@@ -324,7 +364,8 @@
         "credit": "2",
         "term": "6",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "إدارة مشروعات",
@@ -332,7 +373,8 @@
         "credit": "2",
         "term": "6",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "معدات القوي الكهربية",
@@ -340,7 +382,8 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "EEP 221",
-        "satisfies": "_"
+        "satisfies": "EEP 326&EEP 428&EEP 444&EEP 429&EEP 324",
+        "courseClass": "main"
     },
     {
         "name": "الآلات المتزامنة",
@@ -348,7 +391,8 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "EEP 231",
-        "satisfies": "EEP 333"
+        "satisfies": "EEP 333&EEP 324&EEP 436",
+        "courseClass": "main"
     },
     {
         "name": "التحكم وتطبيقات الحاسوب",
@@ -356,7 +400,8 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "_",
-        "satisfies": "EEP 342"
+        "satisfies": "EEP 342",
+        "courseClass": "main"
     },
     {
         "name": "إلكترونيات القوي 1",
@@ -364,15 +409,17 @@
         "credit": "3",
         "term": "7",
         "prerequisites": "_",
-        "satisfies": "EEP 352"
+        "satisfies": "EEP 352",
+        "courseClass": "main"
     },
     {
         "name": "اختياري 1",
         "code": "EEP 3E1",
         "credit": "2",
         "term": "7",
-        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
     },
     {
         "name": "الاتصالات في نظم القوي",
@@ -380,7 +427,8 @@
         "credit": "2",
         "term": "7",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "العقود والكميات والمواصفات ",
@@ -388,7 +436,8 @@
         "credit": "1",
         "term": "7",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "إلكترونيات القوي 2",
@@ -396,7 +445,8 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EEP 351",
-        "satisfies": "EEP 454&EEP 453"
+        "satisfies": "EEP 454&EEP 453&EEP 455",
+        "courseClass": "main"
     },
     {
         "name": "وقاية نظم القوي الكهربية",
@@ -404,7 +454,8 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EEP 221",
-        "satisfies": "EEP 462"
+        "satisfies": "EEP 462",
+        "courseClass": "main"
     },
     {
         "name": "الالات الحثية",
@@ -412,7 +463,8 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EEP 332",
-        "satisfies": "_"
+        "satisfies": "EEP 437",
+        "courseClass": "main"
     },
     {
         "name": "نظرية التحكم الآلي",
@@ -420,7 +472,8 @@
         "credit": "3",
         "term": "8",
         "prerequisites": "EMP x11&EEP 341",
-        "satisfies": "EEP 443"
+        "satisfies": "EEP 443",
+        "courseClass": "main"
     },
     {
         "name": "اقتصاديات الطاقة",
@@ -428,15 +481,17 @@
         "credit": "2",
         "term": "8",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "اختياري 2",
         "code": "EEP 3E2",
         "credit": "2",
         "term": "8",
-        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
     },
     {
         "name": "قضايا معاصرة ( اختياري ) ",
@@ -444,7 +499,8 @@
         "credit": "2",
         "term": "8",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "الوقاية الرقمية والتنسيق",
@@ -452,7 +508,8 @@
         "credit": "2",
         "term": "9",
         "prerequisites": "EEP 361",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "نظرية التحكم الحديثة",
@@ -460,7 +517,8 @@
         "credit": "3",
         "term": "9",
         "prerequisites": "EEP 342",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "تحليل شبكات القوي",
@@ -468,23 +526,26 @@
         "credit": "3",
         "term": "9",
         "prerequisites": "EEP 221",
-        "satisfies": "_"
+        "satisfies": "EEP 463",
+        "courseClass": "main"
     },
     {
         "name": "اختياري 3",
         "code": "EEP 4E3",
         "credit": "2",
         "term": "9",
-        "prerequisites": "طبقاً لجدول المقرر الاختياري",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
     },
     {
         "name": "اختياري 4",
         "code": "EEP 4E4",
         "credit": "2",
         "term": "9",
-        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
     },
     {
         "name": "القانون والاخلاقيات في الهندسة",
@@ -492,15 +553,17 @@
         "credit": "1",
         "term": "9",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "مشروع التخرج 1",
         "code": "EEP 401",
         "credit": "2",
         "term": "9",
-        "prerequisites": "اجتياز 130 ساعة معتمدة",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "EEP 402",
+        "courseClass": "project"
     },
     {
         "name": "اتمتة صناعية",
@@ -508,7 +571,8 @@
         "credit": "3",
         "term": "10",
         "prerequisites": "EEP 352",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "الجهد العالي وتطبيقاته",
@@ -516,7 +580,8 @@
         "credit": "3",
         "term": "10",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "التحريك الكهربى",
@@ -524,23 +589,26 @@
         "credit": "3",
         "term": "10",
         "prerequisites": "EEP 352",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "اختياري 5",
         "code": "EEP 4E5",
         "credit": "2",
         "term": "10",
-        "prerequisites": "طبقاً لجدول المقرر الاختياري",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
     },
     {
         "name": "اختياري 6",
         "code": "EEP 4E6",
         "credit": "2",
         "term": "10",
-        "prerequisites": "طبقاً لجدول المقرر الاختياري ",
-        "satisfies": "_"
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
     },
     {
         "name": "السلامة الكهربية",
@@ -548,7 +616,8 @@
         "credit": "2",
         "term": "10",
         "prerequisites": "_",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "main"
     },
     {
         "name": "مشروع التخرج 2",
@@ -556,6 +625,151 @@
         "credit": "2",
         "term": "10",
         "prerequisites": "EEP 401",
-        "satisfies": "_"
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "نظم القياسات",
+        "code": "EEP 312",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "EEP 112",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "نظم الطاقة المتجددة",
+        "code": "EEP 324",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "EEP 322&EEP 332",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ميكاترونيكس",
+        "code": "EEP 334",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "جودة القدرة الكهربية",
+        "code": "EEP 326",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "EEP 322",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التركيبات الكهربية",
+        "code": "EEP 327",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "النظرية العامة للآلات",
+        "code": "EEP 335",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تطبيقات الكترونيات القوى",
+        "code": "EEP 455",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "EEP 352",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "معالجة الإشارات لنظم القوى",
+        "code": "EEP 413",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "EMP 217",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الآلات الخاصة",
+        "code": "EEP 436",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "EEP 332",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "النظم المرنة لنقل القدرة الكهربية",
+        "code": "EEP 428",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "EEP 322",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التحكم في نظم القوى",
+        "code": "EEP 444",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "EEP 322",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "نظم الجهد العالي ذات التيار المستمر",
+        "code": "EEP 429",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "EEP 322",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المركبات الكهربية",
+        "code": "EEP 437",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "EEP 333",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تخطيط و تشغيل نظم القوى",
+        "code": "EEP 463",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "EEP 424",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الروبوتات",
+        "code": "EEP 438",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التصميم باستخدام الحاسوب",
+        "code": "EEP 464",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
     }
 ]
