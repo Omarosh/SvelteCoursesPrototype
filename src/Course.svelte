@@ -187,10 +187,6 @@
   .btn-warning h1 {
     color: darkred;
   }
-  .tool {
-    color: white;
-    opacity: 0.8 !important;
-  }
 </style>
 
 <SvelteTooltip class="tool" tip={tooltipText} color="#15ebdc" bottom>
