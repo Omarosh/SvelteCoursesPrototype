@@ -1,0 +1,901 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022&CVE 111",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "CVE 112&CVE 221",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main"
+    },
+    {
+        "name": "مباديء هندسة التصنيع ",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حاسبات وبرمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حقوق الإنسان ",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 113&EMP 216",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "EMP 123",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "CVE 132",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "نهر النيل : تاريخ وحاضر ومستقبل",
+        "code": "HUM 023",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل الانشائي 1",
+        "code": "CVE 111",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 021",
+        "satisfies": "CVE 113",
+        "courseClass": "main"
+    },
+    {
+        "name": "خواص واختبار المواد 1",
+        "code": "CVE 112",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 031",
+        "satisfies": "CVE 212&CVE 213&CVE 312",
+        "courseClass": "main"
+    },
+    {
+        "name": "المساحة والطبوغرافيا 1",
+        "code": "CVE 131",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "CVE 133",
+        "courseClass": "main"
+    },
+    {
+        "name": "الرسم المدني 1",
+        "code": "CVE 132",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "EMP 042",
+        "satisfies": "CVE 134",
+        "courseClass": "main"
+    },
+    {
+        "name": "التفاضل والتكامل للمتغيرات المتعددة",
+        "code": "EMP 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 012",
+        "satisfies": "CVE 211",
+        "courseClass": "main"
+    },
+    {
+        "name": "القانون والاخلاقيات في الهندسة ",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة ( اختياري )",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل الانشائي 2",
+        "code": "CVE 113",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "CVE 111",
+        "satisfies": "CVE 211&CVE 212&CVE 312",
+        "courseClass": "main"
+    },
+    {
+        "name": "المساحة والطبوغرافيا 2",
+        "code": "CVE 133",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "CVE 131",
+        "satisfies": "CVE 231&CVE 333&CVE 434&CVE 438",
+        "courseClass": "main"
+    },
+    {
+        "name": "الرسم المدني 2",
+        "code": "CVE 134",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "CVE 132",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الجيولوجيا الهندسية",
+        "code": "CVE 135",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "CVE 214",
+        "courseClass": "main"
+    },
+    {
+        "name": "الاحتمالات والإحصاء",
+        "code": "EMP x18",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "CVE 215",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 3",
+        "code": "EMP 123",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EMP 022",
+        "satisfies": "CVE 402",
+        "courseClass": "main"
+    },
+    {
+        "name": "قضايا معاصرة ( اختياري ) ",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل الانشائي 3",
+        "code": "CVE 211",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CVE 113&EMP 113",
+        "satisfies": "CVE 314",
+        "courseClass": "main"
+    },
+    {
+        "name": "أساسيات الخرسانة المسلحة",
+        "code": "CVE 212",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "CVE 113&CVE 112",
+        "satisfies": "CVE 311&CVE 313",
+        "courseClass": "main"
+    },
+    {
+        "name": "هيدروليكا 1",
+        "code": "CVE 221",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EMP 031",
+        "satisfies": "CVE 223&CVE 341",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظم المعلومات الجغرافية والاستشعار عن بعد",
+        "code": "CVE 231",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CVE 133",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الطرق العددية",
+        "code": "EMP 216",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EMP 012",
+        "satisfies": "CVE 315&CVE 316",
+        "courseClass": "main"
+    },
+    {
+        "name": "كتابة تقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أساسيات الإنشاء المعماري ",
+        "code": "ARC 219",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "خواص واختبار المواد 2",
+        "code": "CVE 213",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "CVE 112",
+        "satisfies": "CVE 311&CVE 318&CVE 418",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا التربة",
+        "code": "CVE 214",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "CVE 135",
+        "satisfies": "CVE 431&CVE 432&CVE 414",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة التشييد 1",
+        "code": "CVE 215",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "EMP x18",
+        "satisfies": "CVE 317&CVE 452",
+        "courseClass": "main"
+    },
+    {
+        "name": "أساسيات الهيدرولوجيا",
+        "code": "CVE 222",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "CVE 321&CVE 423",
+        "courseClass": "main"
+    },
+    {
+        "name": "هيدروليكا 2",
+        "code": "CVE 223",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "CVE 221",
+        "satisfies": "CVE 325&CVE 424&CVE 425",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة هندسية ( اختياري ) ",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات التفاوض وإدارة الوقت ",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم المنشأت الخرسانية المسلحة 1",
+        "code": "CVE 311",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "CVE 212&CVE 213",
+        "satisfies": "CVE 315",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم المنشأت المعدنية 1",
+        "code": "CVE 312",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "CVE 112&CVE 113",
+        "satisfies": "CVE 316",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة الأساسات",
+        "code": "CVE 313",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "CVE 212",
+        "satisfies": "CVE 332&CVE 414&CVE 416",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة الري والصرف",
+        "code": "CVE 321",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "CVE 222",
+        "satisfies": "CVE 323&CVE 426",
+        "courseClass": "main"
+    },
+    {
+        "name": "تخطيط النقل وهندسة المرور",
+        "code": "CVE 331",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "CVE 431&CVE 432&CVE 334&CVE 433",
+        "courseClass": "main"
+    },
+    {
+        "name": "الهندسة الصحية ",
+        "code": "CVE 341",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "CVE 221",
+        "satisfies": "CVE 441&CVE 442&CVE 443",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل الانشائي 4",
+        "code": "CVE 314",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "CVE 211",
+        "satisfies": "CVE 415&CVE 417",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم المنشأت الخرسانية المسلحة 2",
+        "code": "CVE 315",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "CVE 311&EMP 216",
+        "satisfies": "CVE 411&CVE 451&CVE 453&CVE 412",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم المنشأت المعدنية 2",
+        "code": "CVE 316",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "CVE 312&EMP 216",
+        "satisfies": "CVE 413&CVE 419",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم منشأت الري 1",
+        "code": "CVE 323",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "CVE 321",
+        "satisfies": "CVE 421&CVE 422",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة المواني والمنشأت البحرية",
+        "code": "CVE 332",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "CVE 313",
+        "satisfies": "CVE 435&CVE 437",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 1",
+        "code": "CVE 3E1",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مهارات الاتصال والعرض",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم منشأت الري 2",
+        "code": "CVE 421",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "CVE 323",
+        "satisfies": "CVE 425",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة الطرق",
+        "code": "CVE 431",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "CVE 214&CVE 331",
+        "satisfies": "CVE 436&CVE 439",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة السكك الحديدية",
+        "code": "CVE 432",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "CVE 214&CVE 331",
+        "satisfies": "_",
+        "courseClass": "Maib"
+    },
+    {
+        "name": "مقرر اختياري 2",
+        "code": "CVE 4E2",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 3",
+        "code": "CVE 4E3",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مشروع التخرج 1",
+        "code": "CVE 401",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "CVE 402",
+        "courseClass": "project"
+    },
+    {
+        "name": "اقتصاد هندسي ",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم الكباري الخرسانية المسلحة",
+        "code": "CVE 411",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "CVE 315",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 4",
+        "code": "CVE 4E4",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 5",
+        "code": "CVE 4E5",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 6",
+        "code": "CVE 4E6",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective "
+    },
+    {
+        "name": "العقود في المشروعات الهندسية",
+        "code": "cve 412",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "CVE 402",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "CVE 401&EMP 123",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "هندسة وتكنولوجيا التشييد",
+        "code": "CVE 317",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "CVE 215",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المواد الهندسية المتقدمة",
+        "code": "CVE 318",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "CVE 213",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم خطوط شبكات المواسير",
+        "code": "CVE 325",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "CVE 223",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التخطيط والتوقيع المساحي لمشروعات الهندسة المدنية",
+        "code": "CVE 333",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "CVE 133",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التوافق بين أساسيات التخطيط الحضرى وتخطيط النقل",
+        "code": "CVE 334",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "CVE 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الخرسانة سابقة الإجهاد",
+        "code": "CVE 412",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "CVE 315",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم الكباري المعدنية",
+        "code": "CVE 413",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "CVE 316",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ميكانيكا التربة المتقدمة",
+        "code": "CVE 414",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "CVE 214&CVE 313",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المنشأت الهيدروليكية",
+        "code": "CVE 422",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "CVE 323",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تحليل الأمان في النقل والمرور ",
+        "code": "CVE 433",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "CVE 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ديناميكا المنشأت",
+        "code": "CVE 415",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "CVE 314",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم المنشأت الساندة الأرضية",
+        "code": "CVE 416",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "CVE 313",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هيدرولوجيا تطبيقية",
+        "code": "CVE 423",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "CVE 222",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المساحة والفوتوجرامتري 3",
+        "code": "CVE 434",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "CVE 133",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تخطيط المواني ",
+        "code": "CVE 435",
+        "credit": "2",
+        "term": "e3",
+        "prerequisites": "CVE 332",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تحليل الأنظمة الإنشائية المقاومة للأحمال الجانبية ",
+        "code": "CVE 417",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "CVE 314",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ضبط الجودة وترميم الخرسانة",
+        "code": "CVE 418",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "CVE 213",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هيدروليكا تطبيقية",
+        "code": "CVE 424",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "CVE 223",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة المطارات",
+        "code": "CVE 436",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "CVE 431",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة الصرف الصحي ",
+        "code": "CVE 441",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "CVE 341",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم المنشأت المعدنية 3",
+        "code": "CVE 419",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "CVE 316",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم المباني الخرسانية العالية",
+        "code": "CVE 451",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "CVE 315",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تطبيقات الحاسب الآلي في المنشأت الهيدروليكية",
+        "code": "CVE 425",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "CVE 223&CVE 421",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة الشواطئ",
+        "code": "CVE 437",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "CVE 332",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة الإمداد بالمياه ",
+        "code": "CVE 442",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "CVE 341",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "إدارة التشييد 2",
+        "code": "CVE 452",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "CVE 215",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الخزانات الخرسانية للسوائل",
+        "code": "CVE 453",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "CVE 315",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المساحة الجيوديسية",
+        "code": "CVE 438",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "CVE 133",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مواصفات مواد الرصف",
+        "code": "CVE 439",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "CVE 431",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "أنظمة الري المتطورة",
+        "code": "CVE 426",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "CVE 321",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الهندسة الصحية والميكروبيولجي",
+        "code": "CVE 443",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "CVE 341",
+        "satisfies": "_",
+        "courseClass": "e"
+    }
+]

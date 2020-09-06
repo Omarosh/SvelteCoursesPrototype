@@ -2,7 +2,8 @@
   import Navbar from "./Navbar.svelte";
   import Course from "./Course.svelte";
   import AddCourse from "./AddCourse.svelte";
-  import * as myjson from "./power.json";
+  import * as myjson from "./civil.json";
+
   import { createEventDispatcher } from "svelte";
 
   const dispatch = createEventDispatcher();
@@ -78,7 +79,9 @@
           course.state = courseStates.CLOSED;
         }
       } else {
+        console.log(courses);
         course.prerequisites = course.prerequisites.split("&");
+        console.log(courses);
         course.state = courseStates.CLOSED;
       }
     }
@@ -101,7 +104,7 @@
         course.satisfies = course.satisfies.split("&");
       }
     }
-    // console.log(courses);
+    console.log(courses);
   }
 
   // const addCourse = (e) => {
