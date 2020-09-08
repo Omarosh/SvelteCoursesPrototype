@@ -1,0 +1,739 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022&MEC 143",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "MEC 111",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main"
+    },
+    {
+        "name": "مبادئ هندسة التصنيع",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حاسبات و برمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "MEC 255",
+        "courseClass": "main"
+    },
+    {
+        "name": "حقوق الإنسان",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 113",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "MEC 141",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ الهندسة والتكنولوجيا ",
+        "code": "HUM 021",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التفاضل والتكامل للمتغيرات المتعددة",
+        "code": "EMP 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 012",
+        "satisfies": "MEC 322",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 3",
+        "code": "EMP 123",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "MEC 144&MEC 341",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقدمة في الهندسة الحرارية",
+        "code": "MEC 111",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "EMP 031",
+        "satisfies": "MEC 211&MEC 222",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم ميكانيكي 1",
+        "code": "MEC 141",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 042",
+        "satisfies": "MEC 142&MEC 242",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا المواد",
+        "code": "MEC 143",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 021",
+        "satisfies": "MEC 241&MEC 441",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة (اختياري)",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "القانون و الأخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "المعادلات التفاضلية",
+        "code": "EMP 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "MEC 341",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمليات التصنيع الاساسية",
+        "code": "PED x19",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أسس ميكانيكا الموائع",
+        "code": "MEC 132",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "MEC 232",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم ميكانيكي 2",
+        "code": "MEC 142",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "MEC 141",
+        "satisfies": "MEC 448",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا آلات 1",
+        "code": "MEC 144",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EMP 123",
+        "satisfies": "MEC 243",
+        "courseClass": "main"
+    },
+    {
+        "name": "قضايا معاصرة (اختياري)",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الكتابة التقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثرموديناميكا 1",
+        "code": "MEC 211",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "MEC 111",
+        "satisfies": "MEC 311&MEC 322&MEC 212",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقاومة المواد",
+        "code": "MEC 241",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "MEC 143",
+        "satisfies": "MEC 442&MEC 242",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا آلات 2",
+        "code": "MEC 243",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "MEC 144",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تطبيقات الحاسب في الهندسة الميكانيكية",
+        "code": "MEC 255",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CSE 011",
+        "satisfies": "MEC 448",
+        "courseClass": "main"
+    },
+    {
+        "name": "آلات كهربية و إلكترونيات",
+        "code": "EEP x83",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات التفاوض و إدارة الوقت",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل المركب و الدوال الخاصة",
+        "code": "EMP 217",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "MEC 344",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثرموديناميكا 2",
+        "code": "MEC 212",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "MEC 211",
+        "satisfies": "MEC 414&MEC 416",
+        "courseClass": "main"
+    },
+    {
+        "name": "أسس هندسة الاحتراق",
+        "code": "MEC 222",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "MEC 111",
+        "satisfies": "MEC 321&MEC 421",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الموائع 1",
+        "code": "MEC 232",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "MEC 132",
+        "satisfies": "MEC 331&MEC 431&MEC 438",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم ميكانيكي 1",
+        "code": "MEC 242",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "MEC 141&MEC 241",
+        "satisfies": "MEC 342&MEC 444&MEC 446",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات الاتصال و العرض",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "العقود و الكميات و المواصفات",
+        "code": "ECL x21",
+        "credit": "1",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنتقال الحرارة",
+        "code": "MEC 311",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "MEC 211",
+        "satisfies": "MEC 312&MEC 411&MEC 314",
+        "courseClass": "mian"
+    },
+    {
+        "name": "محركات الاحتراق الداخلي",
+        "code": "MEC 321",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "MEC 222",
+        "satisfies": "MEC 424&MEC 423",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الموائع 2",
+        "code": "MEC 331",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "MEC 232",
+        "satisfies": "MEC 332&MEC 435&MEC 437&MEC 436",
+        "courseClass": "main"
+    },
+    {
+        "name": "إهتزازات ميكانيكية",
+        "code": "MEC 341",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "EMP 123&EMP 114",
+        "satisfies": "MEC 344&MEC 442",
+        "courseClass": "main"
+    },
+    {
+        "name": "الآلات و القوي الكهربية",
+        "code": "EEP 356",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تسويق",
+        "code": "ECL x11",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تبريد و تكييف الهواء",
+        "code": "MEC 312",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "MEC 311",
+        "satisfies": "MEC 417",
+        "courseClass": "main"
+    },
+    {
+        "name": "ديناميكا الغازات",
+        "code": "MEC 322",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "EMP 113&MEC 211",
+        "satisfies": "MEC 421",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم ميكانيكي 2",
+        "code": "MEC 342",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "MEC 242",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تحكم آلي",
+        "code": "MEC 344",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "MEC 341&EMP 217",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 1",
+        "code": "MEC 3E1",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "إدارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "محطات القوى الحرارية",
+        "code": "MEC 411",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "MEC 311",
+        "satisfies": "MEC 412",
+        "courseClass": "main"
+    },
+    {
+        "name": "آلات توربينية",
+        "code": "MEC 431",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "MEC 232",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 2",
+        "code": "MEC 4E2",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 3",
+        "code": "MEC 4E3",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اقتصاد هندسي",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 1",
+        "code": "MEC 401",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "MEC 402",
+        "courseClass": "project"
+    },
+    {
+        "name": "قياسات الميكانيكا التطبيقية",
+        "code": "MEC 442",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "MEC 241&MEC 341",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 4",
+        "code": "MEC 4E4",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 5",
+        "code": "MEC 4E5",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 6",
+        "code": "MEC 4E6",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "ثقافة هندسية (اختياري)",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "MEC 402",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "MEC 401",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "تصميم المعدات الحرارية",
+        "code": "MEC 314",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "MEC 311",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "نظم قدرة الموائع",
+        "code": "MEC 332",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "MEC 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التوربينات الغازية",
+        "code": "MEC 421",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "MEC 222",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ترايبولوجي",
+        "code": "MEC 441",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "MEC 143",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "لطاقة المتجددة",
+        "code": "MEC 414",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "MEC 212",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "معدات و تطبيقات التبريد و التكييف",
+        "code": "MEC 417",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "MEC 312",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مقدمة في ميكانيكا الموائع العددية",
+        "code": "MEC 435",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "MEC 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ميكانيكا الموائع البيئية",
+        "code": "MEC 437",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "MEC 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تشغيل و إدارة محطات القوى الحرارية",
+        "code": "MEC 412",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "MEC 411",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تكنولوجيا تحلية المياه",
+        "code": "MEC 416",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "MEC 212",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التصميم الأمثل",
+        "code": "MEC 444",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "MEC 242",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تطبيقات في ميكانيكا الموائع",
+        "code": "MEC 436",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "MEC 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هيدروليكا أنظمة مكافحة الحرائق",
+        "code": "MEC 438",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "MEC 232",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "صيانة و تشخيص أعمال محركات الاحتراق الداخلي",
+        "code": "MEC 424",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "MEC 321",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة السيارات",
+        "code": "MEC 423",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "MEC 321",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التصميم الإحصائي",
+        "code": "MEC 446",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "MEC 242",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "النمذجة و المحاكاة",
+        "code": "MEC 448",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "MEC 255&MEC 142",
+        "satisfies": "_",
+        "courseClass": "e"
+    }
+]

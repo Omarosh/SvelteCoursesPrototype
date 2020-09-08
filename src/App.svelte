@@ -2,7 +2,9 @@
   import Navbar from "./Navbar.svelte";
   import Course from "./Course.svelte";
   import AddCourse from "./AddCourse.svelte";
-  import * as myjson from "./civil.json";
+  import * as civil from "./civil.json";
+  import * as power from "./power.json";
+  import * as meca from "./meca.json";
 
   import { createEventDispatcher } from "svelte";
 
@@ -30,13 +32,25 @@
   ];
 
   let passedCourses = [];
-  let totalCompletedCreditHours = 0;
+  $: totalCompletedCreditHours = updateCompletedHours(
+    passedCourses,
+    totalCompletedCreditHours
+  );
 
   let passedElectiveCourses = [];
 
   const requiredHoursForProject = 130;
 
   $: completedHoursObserver = checkProject(totalCompletedCreditHours);
+
+  function updateCompletedHours(array, hours) {
+    let temp = 0;
+    for (let i of array) {
+      temp += parseInt(i.tempCredit);
+    }
+    totalCompletedCreditHours = temp;
+    return temp;
+  }
 
   function checkProject(creditHours) {
     if (creditHours >= requiredHoursForProject) {
@@ -65,7 +79,7 @@
 
   let terms = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   let electives = ["e1", "e2", "e3", "e4", "e5", "e6"];
-  let test = Object.entries(myjson);
+  let test = Object.entries(meca);
   courses = test[0][1];
   initPrereq();
   function initPrereq() {
@@ -79,9 +93,9 @@
           course.state = courseStates.CLOSED;
         }
       } else {
-        console.log(courses);
+        //  console.log(courses);
         course.prerequisites = course.prerequisites.split("&");
-        console.log(courses);
+        // console.log(courses);
         course.state = courseStates.CLOSED;
       }
     }
@@ -120,6 +134,8 @@
     let tempCode = event.detail.courseCode;
     let tempCredit = event.detail.credit;
     passedCourses.push({ tempCode: tempCode, tempCredit: tempCredit });
+    console.log("PAAAASSED COURSESSSSSSSS");
+    console.log(passedCourses);
     totalCompletedCreditHours += parseInt(tempCredit);
 
     // console.log(passedCourses);
@@ -161,7 +177,8 @@
     let tempTerm = event.detail.term;
 
     deleteCourseFromArray(tempCode, passedCourses);
-
+    console.log("PAAAASSED COURSESSSSSSSS");
+    console.log(passedCourses);
     totalCompletedCreditHours -= parseInt(tempCredit);
 
     for (let satisfiedCourse of event.detail.courseSatisfies) {
@@ -238,7 +255,7 @@
     font-size: 0.8rem;
     position: fixed;
     right: 2px;
-    top: 25%;
+    top: 1px;
   }
 </style>
 
@@ -270,6 +287,8 @@
               bind:handleClick={course.handleClick}
               bind:prerequisites={course.prerequisites}
               satisfies={course.satisfies}
+              bind:passedCourses
+              bind:totalCompletedCreditHours
               bind:state={course.state}
               name={course.name}
               credit={course.credit}
@@ -295,6 +314,8 @@
               bind:prerequisites={course.prerequisites}
               satisfies={course.satisfies}
               bind:state={course.state}
+              bind:passedCourses
+              bind:totalCompletedCreditHours
               name={course.name}
               credit={course.credit}
               term={course.term}
