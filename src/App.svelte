@@ -5,6 +5,7 @@
   import * as civil from "./civil.json";
   import * as power from "./power.json";
   import * as meca from "./meca.json";
+  import * as communication from "./communication.json";
 
   import { createEventDispatcher } from "svelte";
 
@@ -79,7 +80,7 @@
 
   let terms = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   let electives = ["e1", "e2", "e3", "e4", "e5", "e6"];
-  let test = Object.entries(meca);
+  let test = Object.entries(communication);
   courses = test[0][1];
   initPrereq();
   function initPrereq() {
@@ -134,8 +135,8 @@
     let tempCode = event.detail.courseCode;
     let tempCredit = event.detail.credit;
     passedCourses.push({ tempCode: tempCode, tempCredit: tempCredit });
-    console.log("PAAAASSED COURSESSSSSSSS");
-    console.log(passedCourses);
+    // console.log("PAAAASSED COURSESSSSSSSS");
+    // console.log(passedCourses);
     totalCompletedCreditHours += parseInt(tempCredit);
 
     // console.log(passedCourses);
@@ -177,8 +178,8 @@
     let tempTerm = event.detail.term;
 
     deleteCourseFromArray(tempCode, passedCourses);
-    console.log("PAAAASSED COURSESSSSSSSS");
-    console.log(passedCourses);
+    // console.log("PAAAASSED COURSESSSSSSSS");
+    // console.log(passedCourses);
     totalCompletedCreditHours -= parseInt(tempCredit);
 
     for (let satisfiedCourse of event.detail.courseSatisfies) {

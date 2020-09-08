@@ -20,7 +20,10 @@ MECA
 أسس هندسة الاحتراق	MEC 222	3	6	MEC 111
 التوربينات الغازية	MEC 421	3	e2	MEC 222 or MEC 322
 
-
+Communication:
+عايزين نسأل على 
+Data Structures
+Computer Architecture
 
 
 

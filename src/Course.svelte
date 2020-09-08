@@ -55,6 +55,9 @@
           // );
           continue;
         } else {
+          if (code == "CSE x61") {
+            console.log("fuck I didn't pass all prereq (OS)");
+          }
           if (courseClass == "e" && state === courseStates.PASS) {
             deleteElectiveFromArray(term, passedElectiveCourses);
           }
