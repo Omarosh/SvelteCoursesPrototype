@@ -5,6 +5,7 @@
 
   import { createEventDispatcher } from "svelte";
   import { onMount, afterUpdate, onDestroy } from "svelte";
+  import * as meca from "./meca.json";
   onMount(() => {
     console.log("Mounted");
   });
@@ -14,7 +15,7 @@
   });
 
   onDestroy(() => {
-    console.log("Destroyed");
+    console.log("Destroyed " + flag);
   });
 
   const dispatch = createEventDispatcher();
@@ -24,6 +25,7 @@
     PASS: 3,
     ELECTIVE: 4,
   };
+  export let flag = true;
   let terms = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   let electives = ["e1", "e2", "e3", "e4", "e5", "e6"];
   // let test = Object.entries(program);
@@ -43,7 +45,8 @@
       courseClass: "main",
     },
   ];
-  export let arraySize = 50;
+  let test = Object.entries(meca);
+  courses = [...test[0][1]];
 
   let passedCourses = [];
   $: totalCompletedCreditHours = updateCompletedHours(
@@ -90,18 +93,23 @@
       }
     }
   }
-  export let flag = false;
 
-  $: arrayChangeListener = handleArrayChange(courses);
+  // $: arrayChangeListener = handleArrayChange(courses);
 
-  function handleArrayChange(array) {
-    if (flag) {
-      initPrereq();
-    }
+  // function handleArrayChange(array) {
+  //   if (flag) {
+  //     //initPrereq();
+  //   }
+  // }
+  if (flag) {
+    console.log("THE FLAG is " + flag);
+    setTimeout(initPrereq, 1500);
+  } else {
+    failWholeterms();
   }
-  initPrereq();
+
   function initPrereq() {
-    for (let i = 0; i < arraySize; i++) {
+    for (let i = 0; i < courses.length; i++) {
       if (courses[i].prerequisites == "_") {
         courses[i].state = courseStates.READY;
         if (courses[i].courseClass == "elective") {
@@ -110,6 +118,8 @@
         if (courses[i].courseClass == "project") {
           courses[i].state = courseStates.CLOSED;
         }
+      } else if (typeof courses[i].prerequisites != "string") {
+        console.log("Fuck EGYPT PRE");
       } else {
         console.log("Helloooo FROM: (" + courses[i].prerequisites + ")");
         try {
@@ -127,8 +137,10 @@
         courses[i].state = courseStates.CLOSED;
       }
     }
-    for (let i = 0; i < arraySize; i++) {
+    for (let i = 0; i < courses.length; i++) {
       if (courses[i].prerequisites == "_") {
+      } else if (typeof courses[i].satisfies != "string") {
+        console.log("Fuck EGYPT SAT");
       } else {
         for (let j = 0; j < courses[i].prerequisites.length; j++) {
           courses[i].prerequisites[j] = {
@@ -139,11 +151,22 @@
       }
     }
 
-    for (let i = 0; i < arraySize; i++) {
+    for (let i = 0; i < courses.length; i++) {
       if (courses[i].satisfies == "_") {
         //handle no satisfies (don nothing)
       } else {
-        courses[i].satisfies = courses[i].satisfies.split("&");
+        try {
+          courses[i].satisfies = courses[i].satisfies.split("&");
+        } catch (err) {
+          // /console.log(
+          //   "SAAAAAAT FROM: (" +
+          //     courses[i].satisfies +
+          //     ") " +
+          //     courses[i] +
+          //     "==== " +
+          //     i
+          // );
+        }
       }
     }
     // console.log(courses[i]s);
@@ -245,7 +268,7 @@
 
   function passWholeterm(term) {
     for (let course of courses) {
-      if (course.term == term) {
+      if (course.term == term && course.state === courseStates.READY) {
         course.handleClick();
         // console.log("Hello from " + term);
         // if (course.state === courseStates.READY) {
@@ -257,6 +280,14 @@
         //     courseSatisfies: course.satisfies,
         //   });
         // }
+      }
+    }
+  }
+
+  function failWholeterms() {
+    for (let course of courses) {
+      if (course.state === courseStates.PASS) {
+        course.handleClick();
       }
     }
   }

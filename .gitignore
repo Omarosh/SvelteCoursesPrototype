@@ -3,3 +3,4 @@
 
 .DS_Store
 node_modules/svelte-tooltip/src/SvelteTooltip.svelte
+src/tests.js

@@ -579,7 +579,7 @@
         "code": "EEE 402",
         "credit": "3",
         "term": "10",
-        "prerequisites": "EEE 401 ",
+        "prerequisites": "EEE 401",
         "satisfies": "_",
         "courseClass": "project2"
     },

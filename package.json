@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0",
+    "sv-bootstrap-dropdown": "^0.4.3",
     "svelte-tooltip": "^1.2.0"
   }
 }
