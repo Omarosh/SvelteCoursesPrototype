@@ -10,6 +10,7 @@
   import AppCivil from "./AppCivil.svelte";
   import AppProd from "./AppProd.svelte";
   import AppChem from "./AppChem.svelte";
+  import AppText from "./AppText.svelte";
 
   let flag = false;
   let flag1 = true;
@@ -21,6 +22,7 @@
     power: false,
     prod: false,
     chem: false,
+    text: false,
   };
   let initFlags = {
     meca: true,
@@ -29,6 +31,7 @@
     power: true,
     prod: true,
     chem: true,
+    text: true,
   };
   const btnClasses = { s: "btn-secondary", p: "btn-primary" };
   let btnClass = {
@@ -38,8 +41,17 @@
     power: "btn-secondary",
     prod: "btn-secondary",
     chem: "btn-secondary",
+    text: "btn-secondary",
   };
-  let counts = { meca: 0, com: 0, civil: 0, power: 0, prod: 0, chem: 0 };
+  let counts = {
+    meca: 0,
+    com: 0,
+    civil: 0,
+    power: 0,
+    prod: 0,
+    chem: 0,
+    text: 0,
+  };
 
   function toggleMeca() {
     counts.meca++;
@@ -118,6 +130,18 @@
     }
     flags.chem = !flags.chem;
   }
+  function toggleText() {
+    counts.text++;
+    if (counts.text > 1) {
+      initFlags.text = false;
+    }
+    if (counts.text % 2 == 0) {
+      btnClass.text = btnClasses.s;
+    } else {
+      btnClass.text = btnClasses.p;
+    }
+    flags.text = !flags.text;
+  }
 </script>
 
 <style>
@@ -138,6 +162,7 @@
     Production
   </button>
   <button class="btn {btnClass.chem}" on:click={toggleChem}> Chemistry </button>
+  <button class="btn {btnClass.text}" on:click={toggleText}> Textile </button>
 </div>
 
 <!-- <App {courses} /> -->
@@ -164,6 +189,10 @@
 
 {#if flags.chem}
   <AppChem flag={initFlags.chem} />
+{/if}
+
+{#if flags.text}
+  <AppText flag={initFlags.text} />
 {/if}
 
 <!-- 

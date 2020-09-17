@@ -1,0 +1,739 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022&CVE x19",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main"
+    },
+    {
+        "name": "مبادئ هندسة التصنيع",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حاسبات و برمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "CSE 121",
+        "courseClass": "main"
+    },
+    {
+        "name": "حقوق الإنسان",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 216",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "TEE 122",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "TEE 111",
+        "courseClass": "main"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ الهندسة و التكنولوجيا",
+        "code": "HUM 021",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "",
+        "courseClass": "main"
+    },
+    {
+        "name": "القانون و الاخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "اقتصاد هندسي",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 3",
+        "code": "EMP 123",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "TEE 121",
+        "courseClass": "main"
+    },
+    {
+        "name": "الخامات النسيجية",
+        "code": "TEE 111",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "CHE 011",
+        "satisfies": "TEE 251&TEE 311",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة إنشائية 1",
+        "code": "CVE x19",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "EMP 021",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مبادئ الدوائر الكهربية",
+        "code": "EEP x16",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات التفاوض و ادارة الوقت",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة هندسية (اختياري)",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم آلات",
+        "code": "TEE 121",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EMP 123",
+        "satisfies": "TEE 221",
+        "courseClass": "main"
+    },
+    {
+        "name": "المعادلات التفاضلية",
+        "code": "EMP 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "TEE 221",
+        "courseClass": "main"
+    },
+    {
+        "name": "الرسم الميكانيكي بأستخدام الكمبيوتر",
+        "code": "TEE 122",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EMP 042",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "برمجة 1",
+        "code": "CSE 121",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "CSE 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كتابة تقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا موائع و الات هيدروليكية",
+        "code": "MEC x34",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ديناميكا حرارية",
+        "code": "MEC x12",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "اختبار و تقييم المواد النسيجية",
+        "code": "TEE 251",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "TEE 111",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظرية آلات الغزل و النسيج",
+        "code": "TEE 221",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "TEE 121&EMP 114",
+        "satisfies": "TEE 321",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا الغزل 1",
+        "code": "TEE 231",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "TEE 232&TEE 331&TEE 332",
+        "courseClass": "main"
+    },
+    {
+        "name": "تحضيرات النسيج",
+        "code": "TEE 241",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "TEE 243",
+        "courseClass": "main"
+    },
+    {
+        "name": "الات كهربية و الكترونيات",
+        "code": "EEP x83",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الطرق العددية",
+        "code": "EMP 216",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "EMP 012",
+        "satisfies": "TEE 321",
+        "courseClass": "main"
+    },
+    {
+        "name": "قضايا معاصرة (اختياري)",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا انتاج الخيوط المستمرة",
+        "code": "TEE 232",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "TEE 231",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تطبيقات الاحصاء الرياضي في النسجيات",
+        "code": "TEE 252",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "TEE 451",
+        "courseClass": "main"
+    },
+    {
+        "name": "تراكيب النسيج و التريكو",
+        "code": "TEE 242",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "TEE 342&TEE 442&TEE 443",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا النسيج 1",
+        "code": "TEE 243",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "TEE 241",
+        "satisfies": "TEE 341",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات الاتصال و العرض",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تسويق",
+        "code": "ECL x11",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا الغزل 2",
+        "code": "TEE 331",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "TEE 231",
+        "satisfies": "TEE 333&TEE 432&TEE 433",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا النسيج 2",
+        "code": "TEE 341",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "TEE 243",
+        "satisfies": "TEE 441",
+        "courseClass": "main"
+    },
+    {
+        "name": "أقمشة غير منسوجة",
+        "code": "TEE 311",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "TEE 111",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا التريكو 1",
+        "code": "TEE 342",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "TEE 242",
+        "satisfies": "TEE 344",
+        "courseClass": "main"
+    },
+    {
+        "name": "انتاج الملابس الجاهزة",
+        "code": "TEE 343",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "TEE 352",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة (اختياري)",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "غزل الشعيرات الطويلة",
+        "code": "TEE 332",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "TEE 231",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "اختياري 1",
+        "code": "TEE 3E1",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اختياري 2",
+        "code": "TEE 3E2",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": " ميكانيكا آلات الغزل و النسيج",
+        "code": "TEE 321",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "TEE 221&EMP 216",
+        "satisfies": "TEE 322&TEE 421",
+        "courseClass": "main"
+    },
+    {
+        "name": "تكنولوجيا التجهيزات",
+        "code": "TEE 312",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "اختياري 3",
+        "code": "TEE 3E3",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اختياري 4",
+        "code": "TEE 4E4",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اختياري 5",
+        "code": "TEE 4E5",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "تنظيم و ادارة مصانع الغزل و النسيج",
+        "code": "TEE 451",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "TEE 252",
+        "satisfies": "TEE 454&TEE 456",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحكم في جودة النسيجيات",
+        "code": "TEE 452",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "TEE 455",
+        "courseClass": "main"
+    },
+    {
+        "name": "ادارة الاعمال (اختياري)",
+        "code": "BUS xE1",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع تخرج 1",
+        "code": "TEE 401",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "TEE 402",
+        "courseClass": "project"
+    },
+    {
+        "name": "ادارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "اختياري 6",
+        "code": "TEE 4E6",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اختياري 7",
+        "code": "TEE 4E7",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اختياري 8",
+        "code": "TEE 4E8",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "التحكم الآلي و الربوت في الصناعات النسيجية",
+        "code": "TEE 421",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "TEE 321",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "TEE 402",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "TEE 401",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "نظم المعلومات و تطبيقات الحاسب في النسجيات",
+        "code": "TEE 351",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تكنولوجيا التريكو 2",
+        "code": "TEE 344",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "TEE 342",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "نظريات الغزل",
+        "code": "TEE 333",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "TEE 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "استخدام الحاسب في تصميم الملابس و المنسوجات",
+        "code": "TEE 352",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "TEE 343",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المنسوجات الصناعية و الطبية",
+        "code": "TEE 313",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم و صناعة آلات الغزل و النسيج",
+        "code": "TEE 322",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "TEE 321",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ميكانيكا الخيوط المزوية",
+        "code": "TEE 431",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تكنولوجيا النسيج 3",
+        "code": "TEE 441",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "TEE 341",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ادارة الجودة في تصنيع النسيجيات",
+        "code": "TEE 453",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "صناعة السجاد",
+        "code": "TEE 442",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "TEE 242",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تراكيب النسيج 2",
+        "code": "TEE 443",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "TEE 242",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تنظيم مصانع الغزل",
+        "code": "TEE 454",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "TEE 451",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "جودة اللين 6 سيجما",
+        "code": "TEE 455",
+        "credit": "3",
+        "term": "e7",
+        "prerequisites": "TEE 452",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "إنتاج و خواص الخيوط الصناعية المضحمة",
+        "code": "TEE 432",
+        "credit": "3",
+        "term": "e7",
+        "prerequisites": "TEE 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "نظم الغزل الحديثة",
+        "code": "TEE 433",
+        "credit": "3",
+        "term": "e8",
+        "prerequisites": "TEE 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تنظيم مصانع النسيج و الملابس",
+        "code": "TEE 456",
+        "credit": "3",
+        "term": "e8",
+        "prerequisites": "TEE 451",
+        "satisfies": "_",
+        "courseClass": "e"
+    }
+]
