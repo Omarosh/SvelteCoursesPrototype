@@ -1,0 +1,709 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "مباديء هندسة التصنيع ",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "حاسبات وبرمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "NAM 252",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "حقوق الإنسان ",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 113&EMP 216",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "تاريخ الهندسة والتكنولوجيا",
+        "code": "HUM 021",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "التفاضل والتكامل للمتغيرات المتعددة",
+        "code": "EMP 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 012",
+        "satisfies": "NAM 435",
+        "courseClass": "main",
+        "": ""
+    },
+    {
+        "name": "ميكانيكا 3",
+        "code": "EMP 123",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "المواد الهندسية",
+        "code": "NAM 161",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمارة بحرية 1",
+        "code": "NAM 181",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "NAM 282",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسومات بحرية",
+        "code": "NAM 151",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "القانون والاخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "المعادلات التفاضلية",
+        "code": "EMP 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "NAM 232&NAM 323",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الإنشاءات 1",
+        "code": "NAM 131",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "NAM 233",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنشاء سفن",
+        "code": "NAM 162",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ديناميكا حرارية",
+        "code": "MEC x12",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "NAM 241",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمليات التصنيع الأساسية",
+        "code": "PED x19",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كتابة تقنية ",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة ( اختياري ) ",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الموائع 1",
+        "code": "NAM 221",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "NAM 222",
+        "courseClass": "main"
+    },
+    {
+        "name": "تطبيقات الحاسب الآلي في المجال البحري 1",
+        "code": "NAM 252",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CSE 011",
+        "satisfies": "NAM 454",
+        "courseClass": "main"
+    },
+    {
+        "name": "الهندسة الكهربية",
+        "code": "EEP x81",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الآلات",
+        "code": "NAM 232",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EMP 114",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "محطات القوي البحرية",
+        "code": "NAM 241",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "MEC x12",
+        "satisfies": "NAM 342",
+        "courseClass": "main"
+    },
+    {
+        "name": "الاحتمالات والإحصاء",
+        "code": "EMP x18",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "NAM 425",
+        "courseClass": "main"
+    },
+    {
+        "name": "الطرق العددية",
+        "code": "EMP 216",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "EMP 012",
+        "satisfies": "NAM 454",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الموائع 2",
+        "code": "NAM 222",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "NAM 221",
+        "satisfies": "NAM 323",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمارة بحرية 2",
+        "code": "NAM 282",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "NAM 181",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الإنشاءات 2",
+        "code": "NAM 233",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "NAM 131",
+        "satisfies": "NAM 334",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات الاتصال والعرض",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "القواعد والنظام البحرية ",
+        "code": "NAM 294",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنشاءات بحرية 1",
+        "code": "NAM 334",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "NAM 233",
+        "satisfies": "NAM 435",
+        "courseClass": "main"
+    },
+    {
+        "name": "هيدروديناميكا بحرية 1",
+        "code": "NAM 323",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "EMP 114&NAM 222",
+        "satisfies": "NAM 324",
+        "courseClass": "main"
+    },
+    {
+        "name": "آلات الاحتراق الداخلي البحرية",
+        "code": "NAM 342",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "NAM 241",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم السفن 1",
+        "code": "NAM 383",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "NAM 384",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 1",
+        "code": "NAM 3E1",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مهارات التفاوض وإدارة الوقت ",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هيدروديناميكا بحرية 2",
+        "code": "NAM 324",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "NAM 323",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تقنية بناء السفن",
+        "code": "NAM 364",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "NAM 465",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة ما وراء الشواطئ 1",
+        "code": "NAM 371",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "NAM 472",
+        "courseClass": "main"
+    },
+    {
+        "name": "تصميم السفن 2",
+        "code": "NAM 384",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "NAM 383",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 2",
+        "code": "NAM 3E2",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "ثقافة هندسية ( اختياري ) ",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنشاءات بحرية 2",
+        "code": "NAM 435",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "EMP 113&NAM 334",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تسويق",
+        "code": "ECL x11",
+        "credit": "1",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 3",
+        "code": "NAM 4E3",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 4",
+        "code": "NAM 4E4",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "تطبيقات الحاسب الآلي في المجال البحري 2",
+        "code": "NAM 454",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "NAM 252&EMP 216",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 1",
+        "code": "NAM 401",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "NAM 402",
+        "courseClass": "project"
+    },
+    {
+        "name": "اقتصاد هندسي ",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ديناميكا بحرية",
+        "code": "NAM 425",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "EMP x18",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة بحرية",
+        "code": "NAM 445",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 5",
+        "code": "NAM 4E5",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 6",
+        "code": "NAM 4E6",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "قضايا معاصرة ( اختياري ) ",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "NAM 402",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "NAM 401",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "تجهيزات بحرية",
+        "code": "NAM 363",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تكنولوجيا تحت الماء",
+        "code": "NAM 373",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مباديء التبريد وتكييف الهواء",
+        "code": "MEC 316",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "منظومات التحكم البحرية",
+        "code": "NAM 344",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة ترسانات",
+        "code": "NAM 465",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "NAM 364",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة ما وراء الشواطئ 2",
+        "code": "NAM 472",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "NAM 371",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المخاطر البحرية وتقدير حدود الأمان",
+        "code": "NAM 455",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم الوحدات الصغيرة",
+        "code": "NAM 485",
+        "credit": "2",
+        "term": "e4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "دراسات الجدوى والمواصفات",
+        "code": "NAM 497",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "اللوجستيات وصناعة النقل",
+        "code": "NAM 498",
+        "credit": "2",
+        "term": "e5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "ميكانيكا المواد المركبة",
+        "code": "NAM 436",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الماكينات المساعدة ",
+        "code": "NAM 446",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    }
+]

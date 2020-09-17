@@ -1,0 +1,766 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "NRE 232",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main"
+    },
+    {
+        "name": "مباديء هندسة التصنيع ",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حاسبات وبرمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حقوق الإنسان ",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 113&NRE 121&EMP x11&NRE 181&NRE 131",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "NRE 121",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "NRE 121&NRE 141",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ الهندسة النووية",
+        "code": "HUM 024",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التفاضل والتكامل للمتغيرات المتعددة",
+        "code": "EMP 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 012",
+        "satisfies": "NRE 371&NRE 222",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 3",
+        "code": "EMP 123",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "NRE 351",
+        "courseClass": "main"
+    },
+    {
+        "name": "مباديء الدوائر الكهربية",
+        "code": "EEP x16",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "EEE 132",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقدمة في الهندسة النووية والاشعاعية",
+        "code": "NRE 111",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء ذرية",
+        "code": "NRE 121",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 012&EMP 022&EMP 032",
+        "satisfies": "NRE 222",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقدمة علوم مواد هندسية",
+        "code": "NRE 141",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 032",
+        "satisfies": "NRE 142",
+        "courseClass": "main"
+    },
+    {
+        "name": "كتابة تقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "المعادلات التفاضلية",
+        "code": "EMP 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "NRE 331",
+        "courseClass": "main"
+    },
+    {
+        "name": "برمجة الحاسوب في الهندسة النووية",
+        "code": "NRE 181",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EMP 012",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أسس الإلكترونيات",
+        "code": "EEE 132",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EEP x16",
+        "satisfies": "EEE 235",
+        "courseClass": "main"
+    },
+    {
+        "name": "خواص واختبار المواد الهندسية",
+        "code": "NRE 142",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "NRE 141",
+        "satisfies": "NRE 341&NRE 342&NRE 343&NRE 412",
+        "courseClass": "main"
+    },
+    {
+        "name": "ديناميكا حرارية وكينتيكا الغازات",
+        "code": "NRE 131",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "EMP 012",
+        "satisfies": "NRE 331",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات الاتصال والعرض ",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الجبر الخطى",
+        "code": "EMP x11",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EMP 012",
+        "satisfies": "NRE 311",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء نووية",
+        "code": "NRE 222",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EMP 113&NRE 121",
+        "satisfies": "NRE 261&NRE 223&NRE 311&NRE 381&NRE 342&NRE 343",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا الموائع وهندسة التدفق",
+        "code": "NRE 232",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EMP 031",
+        "satisfies": "NRE 331&NRE 371",
+        "courseClass": "main"
+    },
+    {
+        "name": "تحليل الدوائر الإلكترونية",
+        "code": "EEE 235",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "EEE 132",
+        "satisfies": "NRE 261",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات التفاوض وإدارة الوقت",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة أعمال ( اختياري )",
+        "code": "BUS xE1",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل المركب والدوال الخاصة",
+        "code": "EMP 217",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "NRE 351&NRE 311&NRE 371",
+        "courseClass": "main"
+    },
+    {
+        "name": "الاحتمالات والإحصاء",
+        "code": "EMP x18",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "NRE 312&NRE 471",
+        "courseClass": "main"
+    },
+    {
+        "name": "مباديء الآلات الكهربية",
+        "code": "EEP x84",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء إشعاعية",
+        "code": "NRE 223",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "NRE 222",
+        "satisfies": "NRE 451&NRE 363&NRE 365&NRE 412&NRE 414",
+        "courseClass": "main"
+    },
+    {
+        "name": "الكشف عن الإشعاعات وقياسها",
+        "code": "NRE 261",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "EEE 235&NRE 222",
+        "satisfies": "NRE 362&NRE 363&NRE 365&NRE 364&NRE 412&NRE 442&NRE 454&NRE 466&NRE 461",
+        "courseClass": "main"
+    },
+    {
+        "name": "قضايا معاصرة ( اختياري ) ",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الوقاية من الإشعاع والتدريع",
+        "code": "NRE 362",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "NRE 261",
+        "satisfies": "NRE 455",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحكم الآلي في الهندسة النووية",
+        "code": "NRE 351",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "EMP 217&EMP 123",
+        "satisfies": "NRE 381&NRE 413",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء المفاعلات النووية",
+        "code": "NRE 311",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "EMP 217&NRE 222&EMP x11",
+        "satisfies": "NRE 312",
+        "courseClass": "main"
+    },
+    {
+        "name": "انتقال الحرارة",
+        "code": "NRE 331",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "NRE 131&NRE 232&EMP 114",
+        "satisfies": "NRE 332&NRE 356",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 1",
+        "code": "NRE 3E1",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "القانون والاخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة ( اختياري ) ",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 2",
+        "code": "NRE 3E2",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "النمذجة والمحاكاة في الهندسة النووية",
+        "code": "NRE 381",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "NRE 222&NRE 351",
+        "satisfies": "NRE 452",
+        "courseClass": "main"
+    },
+    {
+        "name": "تحليل المفاعلات النووية",
+        "code": "NRE 312",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "EMP x18&NRE 311",
+        "satisfies": "NRE 411&NRE 413",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء البلازما ومفاعلات الاندماج",
+        "code": "NRE 371",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "EMP 113&EMP 217&NRE 232",
+        "satisfies": "NRE 471",
+        "courseClass": "main"
+    },
+    {
+        "name": "محطات قوي حرارية ونووية",
+        "code": "NRE 332",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "NRE 331",
+        "satisfies": "NRE 431&NRE 452&NRE 453&NRE 454&NRE 413&NRE 414",
+        "courseClass": "main"
+    },
+    {
+        "name": "مواد المفاعلات النووية",
+        "code": "NRE 341",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "NRE 142",
+        "satisfies": "NRE 451&NRE 443&NRE 414",
+        "courseClass": "main"
+    },
+    {
+        "name": "كينتيكا المفاعلات النووية",
+        "code": "NRE 411",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "NRE 312",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الهيدروليكا الحرارية للمفاعلات",
+        "code": "NRE 431",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "NRE 332",
+        "satisfies": "NRE 456",
+        "courseClass": "main"
+    },
+    {
+        "name": "دورات الوقود النووي",
+        "code": "NRE 451",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "NRE 223&NRE 341",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 3",
+        "code": "NRE 4E3",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 4",
+        "code": "NRE 4E4",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "اقتصاد هندسي",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 1",
+        "code": "NRE 401",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "NRE 402",
+        "courseClass": "project"
+    },
+    {
+        "name": "نظم القوي الكهربية والتوزيع",
+        "code": "EEP x85",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 5",
+        "code": "NRE 4E5",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 6",
+        "code": "NRE 4E6",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "امن وأمان المفاعلات النووية",
+        "code": "NRE 452",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "NRE 381&NRE 332",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أسبوع بإحدي الهيئات النووية",
+        "code": "NRE 403",
+        "credit": "1",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة هندسية ( اختياري ) ",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "NRE 402",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "NRE 401",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "الطب النووي والعلاج الإشعاعي",
+        "code": "NRE 363",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "NRE 223&NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المعجلات وتطبيقاتها",
+        "code": "NRE 365",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "NRE 223&NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "طرق تشخيص المواد",
+        "code": "NRE 342",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "NRE 142&NRE 222",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تطبيقات الإشعاع في الصناعة",
+        "code": "NRE 364",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مصادر الطاقة المتجددة",
+        "code": "NRE 356",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "NRE 331",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الاختبارات غير الإتلافية",
+        "code": "NRE 343",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "NRE 142&NRE 222",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "معمل القياسات الإشعاعية",
+        "code": "NRE 466",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "محطات القوي النووية المتقدمة",
+        "code": "NRE 453",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "NRE 332",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التصوير الإشعاعي للمواد",
+        "code": "NRE 442",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مفاعلات البحوث وتطبيقاتها",
+        "code": "NRE 412",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "NRE 142&NRE 223&NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "قياسات محطات القوي النووية",
+        "code": "NRE 454",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "NRE 261&NRE 332",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "إدارة النفايات النووية",
+        "code": "NRE 455",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "NRE 362",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مقدمة في البلازما الصناعية",
+        "code": "NRE 471",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "NRE 371&EMP x18",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التشغيل والتحكم في المفاعلات النووية",
+        "code": "NRE 413",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "NRE 312&NRE 332&NRE 351",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تصميم وأداء الوقود النووي",
+        "code": "NRE 443",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "NRE 341",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "التقنيات النووية لتسجيل خصائص آبار البترول",
+        "code": "NRE 461",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "NRE 261",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الديناميكا الحرارية لمحطات القوي النووية",
+        "code": "NRE 456",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "NRE 431",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الكيمياء الإشعاعية في محطات القوي النووية",
+        "code": "NRE 414",
+        "credit": "2",
+        "term": "e6",
+        "prerequisites": "NRE 223&NRE 332&NRE 341",
+        "satisfies": "_",
+        "courseClass": "e"
+    }
+]

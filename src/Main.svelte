@@ -11,6 +11,8 @@
   import AppProd from "./AppProd.svelte";
   import AppChem from "./AppChem.svelte";
   import AppText from "./AppText.svelte";
+  import AppNuc from "./AppNuc.svelte";
+  import AppNaval from "./AppNaval.svelte";
 
   let flag = false;
   let flag1 = true;
@@ -23,6 +25,8 @@
     prod: false,
     chem: false,
     text: false,
+    nuc: false,
+    naval: false,
   };
   let initFlags = {
     meca: true,
@@ -32,6 +36,8 @@
     prod: true,
     chem: true,
     text: true,
+    nuc: true,
+    naval: true,
   };
   const btnClasses = { s: "btn-secondary", p: "btn-primary" };
   let btnClass = {
@@ -42,6 +48,8 @@
     prod: "btn-secondary",
     chem: "btn-secondary",
     text: "btn-secondary",
+    nuc: "btn-secondary",
+    naval: "btn-secondary",
   };
   let counts = {
     meca: 0,
@@ -51,6 +59,8 @@
     prod: 0,
     chem: 0,
     text: 0,
+    nuc: 0,
+    naval: 0,
   };
 
   function toggleMeca() {
@@ -142,6 +152,31 @@
     }
     flags.text = !flags.text;
   }
+  function toggleNuc() {
+    counts.nuc++;
+    if (counts.nuc > 1) {
+      initFlags.nuc = false;
+    }
+    if (counts.nuc % 2 == 0) {
+      btnClass.nuc = btnClasses.s;
+    } else {
+      btnClass.nuc = btnClasses.p;
+    }
+    flags.nuc = !flags.nuc;
+  }
+
+  function toggleNaval() {
+    counts.naval++;
+    if (counts.naval > 1) {
+      initFlags.naval = false;
+    }
+    if (counts.naval % 2 == 0) {
+      btnClass.naval = btnClasses.s;
+    } else {
+      btnClass.naval = btnClasses.p;
+    }
+    flags.naval = !flags.naval;
+  }
 </script>
 
 <style>
@@ -163,6 +198,8 @@
   </button>
   <button class="btn {btnClass.chem}" on:click={toggleChem}> Chemistry </button>
   <button class="btn {btnClass.text}" on:click={toggleText}> Textile </button>
+  <button class="btn {btnClass.nuc}" on:click={toggleNuc}> Nuclear </button>
+  <button class="btn {btnClass.naval}" on:click={toggleNaval}> Naval </button>
 </div>
 
 <!-- <App {courses} /> -->
@@ -193,6 +230,14 @@
 
 {#if flags.text}
   <AppText flag={initFlags.text} />
+{/if}
+
+{#if flags.nuc}
+  <AppNuc flag={initFlags.nuc} />
+{/if}
+
+{#if flags.naval}
+  <AppNaval flag={initFlags.naval} />
 {/if}
 
 <!-- 
