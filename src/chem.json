@@ -1,0 +1,730 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main"
+    },
+    {
+        "name": "مبادئ هندسة التصنيع",
+        "code": "PED 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حاسبات و برمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حقوق الإنسان",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "EMP 113",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ الهندسة و التكنولوجيا",
+        "code": "HUM 021",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التفاضل و التكامل للمتغيرات المتعددة",
+        "code": "EMP 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "EMP 012",
+        "satisfies": "",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء عضوية 1",
+        "code": "CHE 111",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء غير عضوية 1",
+        "code": "CHE 113",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء فيزيائية 1",
+        "code": "CHE 115",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "CHE 325",
+        "courseClass": "main"
+    },
+    {
+        "name": "حسابات و تخطيط العمليات الكيميائية",
+        "code": "CHE 121",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "CHE 226&CHE 221&CHE 223",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات التفاوض و إدارة الوقت",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة هندسية",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "المعادلات التفاضلية",
+        "code": "EMP 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "CHE 324&CHE 326&CHE 421",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء عضوية 2",
+        "code": "CHE 112",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحليل بالاجهزة",
+        "code": "CHE 114",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء فيزيائية 2",
+        "code": "CHE 116",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة و علوم مواد",
+        "code": "CHE 152",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "CHE 253&CHE 251",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات الاتصال و العرض",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أساسيات الهندسة الكيميائية 1",
+        "code": "CHE 221",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CHE 121",
+        "satisfies": "CHE 222&CHE 421&CHE 324",
+        "courseClass": "main"
+    },
+    {
+        "name": "الديناميكا الحرارية في الهندسة الكيميائية 1",
+        "code": "CHE 223",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CHE 121",
+        "satisfies": "CHE 224",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة البلمرات",
+        "code": "CHE 251",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "CHE 152",
+        "satisfies": "CHE 455",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة الفلزات",
+        "code": "CHE 253",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "CHE 152",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الهندسة الكهربية",
+        "code": "EEP x81",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تسويق",
+        "code": "ECL x11",
+        "credit": "1",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة (اختياري)",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أساسيات الهندسة الكيميائية 2",
+        "code": "CHE 222",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "CHE 221",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الديناميكا الحرارية في الهندسة الكيميائية 2",
+        "code": "CHE 224",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "CHE 223",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة سريان الموائع",
+        "code": "CHE 226",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "CHE 121",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنتقال الحرارة",
+        "code": "CHE 228",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التشغيل الميكانيكي للعمليات الكيميائية",
+        "code": "MEC 246",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "قضايا معاصرة (اختياري)",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كتابة تقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة التآكل",
+        "code": "CHE 311",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "انتقال المادة",
+        "code": "CHE 321",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "CHE 324&CHE 421",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمليات الفصل 1",
+        "code": "CHE 323",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة التفاعلات الكيميائية",
+        "code": "CHE 325",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "CHE 115",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر إختياري 1",
+        "code": "CHE 3E1",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "الاقتصاد الهندسي",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ادارة المشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة البيئة",
+        "code": "CHE 312",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمليات الفصل 2",
+        "code": "CHE 324",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "CHE 321&EMP 114&CHE 221",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "النمذجة و المحاكاة في الهندسة الكيميائية",
+        "code": "CHE 326",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "EMP 114",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة الغاز الطبيعي",
+        "code": "CHE 331",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر إختياري 2",
+        "code": "CHE 3E2",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر إختياري 3",
+        "code": "CHE 3E3",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "القانون و الأخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "عمليات الفصل 3",
+        "code": "CHE 421",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "CHE 221&EMP 114&CHE 321",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التحكم في العمليات الكيميائية",
+        "code": "CHE 423",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر إختياري 4",
+        "code": "CHE 4E4",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر إختياري 5",
+        "code": "CHE 4E5",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مشروع التخرج 1",
+        "code": "CHE 401",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "CHE 402",
+        "courseClass": "project"
+    },
+    {
+        "name": "تصميم العمليات الكيميائية",
+        "code": "CHE 422",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "صناعات العمليات الكيميائية",
+        "code": "CHE 431",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "هندسة تكرير البترول",
+        "code": "CHE 441",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر إختياري 6",
+        "code": "CHE 4E6",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مشروع التخرج 2",
+        "code": "CHE 402",
+        "credit": "3",
+        "term": "10",
+        "prerequisites": "CHE 401",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "عمليات انتقال الحرارة",
+        "code": "CHE 327",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة الوقود و الاحتراق",
+        "code": "CHE 341",
+        "credit": "3",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الهندسة الكيمياء الحيوية",
+        "code": "CHE 332",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "معالجة المياه للعمليات الصناعية",
+        "code": "CHE 334",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مصادر الطاقة البديلة",
+        "code": "CHE 342",
+        "credit": "3",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "مواد الصباغة و تجهيز المنسوجات",
+        "code": "CHE 333",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تكنولوجيا الزيوت و الدهون",
+        "code": "CHE 335",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "صناعة الأسمدة",
+        "code": "CHE 337",
+        "credit": "3",
+        "term": "e3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "اجهزة القياس الصناعية",
+        "code": "CHE 425",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "صناعات سيليكاتية",
+        "code": "CHE 453",
+        "credit": "3",
+        "term": "e4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "البتروكيماويات",
+        "code": "CHE 435",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "المواد المركبة و المقواه",
+        "code": "CHE 455",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "CHE 251",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "تحلية المياة",
+        "code": "CHE 437",
+        "credit": "3",
+        "term": "e5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "الفلزات الاستخلاصية",
+        "code": "CHE 438",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "هندسة الغاز الطبيعي",
+        "code": "CHE 442",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    },
+    {
+        "name": "العمليات الكهروكيميائية",
+        "code": "CHE 443",
+        "credit": "3",
+        "term": "e6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "e"
+    }
+]

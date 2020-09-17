@@ -8,20 +8,38 @@
   import AppCom from "./AppCom.svelte";
   import AppPower from "./AppPower.svelte";
   import AppCivil from "./AppCivil.svelte";
+  import AppProd from "./AppProd.svelte";
+  import AppChem from "./AppChem.svelte";
 
   let flag = false;
   let flag1 = true;
   let count = 0;
-  let flags = { meca: false, com: false, civil: false, power: false };
-  let initFlags = { meca: true, com: true, civil: true, power: true };
+  let flags = {
+    meca: false,
+    com: false,
+    civil: false,
+    power: false,
+    prod: false,
+    chem: false,
+  };
+  let initFlags = {
+    meca: true,
+    com: true,
+    civil: true,
+    power: true,
+    prod: true,
+    chem: true,
+  };
   const btnClasses = { s: "btn-secondary", p: "btn-primary" };
   let btnClass = {
     meca: "btn-secondary",
     com: "btn-secondary",
     civil: "btn-secondary",
     power: "btn-secondary",
+    prod: "btn-secondary",
+    chem: "btn-secondary",
   };
-  let counts = { meca: 0, com: 0, civil: 0, power: 0 };
+  let counts = { meca: 0, com: 0, civil: 0, power: 0, prod: 0, chem: 0 };
 
   function toggleMeca() {
     counts.meca++;
@@ -74,6 +92,32 @@
     }
     flags.civil = !flags.civil;
   }
+
+  function toggleProd() {
+    counts.prod++;
+    if (counts.prod > 1) {
+      initFlags.prod = false;
+    }
+    if (counts.prod % 2 == 0) {
+      btnClass.prod = btnClasses.s;
+    } else {
+      btnClass.prod = btnClasses.p;
+    }
+    flags.prod = !flags.prod;
+  }
+
+  function toggleChem() {
+    counts.chem++;
+    if (counts.chem > 1) {
+      initFlags.chem = false;
+    }
+    if (counts.chem % 2 == 0) {
+      btnClass.chem = btnClasses.s;
+    } else {
+      btnClass.chem = btnClasses.p;
+    }
+    flags.chem = !flags.chem;
+  }
 </script>
 
 <style>
@@ -90,6 +134,10 @@
   <button class="btn {btnClass.com}" on:click={toggleCom}> Com </button>
   <button class="btn {btnClass.meca}" on:click={toggleMeca}> Meca </button>
   <button class="btn {btnClass.civil}" on:click={toggleCivil}> Civil </button>
+  <button class="btn {btnClass.prod}" on:click={toggleProd}>
+    Production
+  </button>
+  <button class="btn {btnClass.chem}" on:click={toggleChem}> Chemistry </button>
 </div>
 
 <!-- <App {courses} /> -->
@@ -108,6 +156,14 @@
 
 {#if flags.civil}
   <AppCivil flag={initFlags.civil} />
+{/if}
+
+{#if flags.prod}
+  <AppProd flag={initFlags.prod} />
+{/if}
+
+{#if flags.chem}
+  <AppChem flag={initFlags.chem} />
 {/if}
 
 <!-- 

@@ -26,6 +26,14 @@ Data Structures
 Computer Architecture
 
 
+// Production
+PED 344
+مادة تحسين الجودة
+عايزة PED 214
+و هي اصلا مش موجودة
 
-
+كذلك دي
+إلنتاج جودة ضبط PED 341
+ PED 214 :ا
+What is PED 214??? It is no where to be found.
 */
