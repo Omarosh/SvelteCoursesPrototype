@@ -28,6 +28,7 @@
   export let flag = true;
   let terms = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   let electives = ["e1", "e2"];
+  let electivesHelper = ["1,2", "3,4,5,6"];
   // let test = Object.entries(program);
   // courses = test[0][1];
   export let courses = [
@@ -362,7 +363,9 @@
     {/each}
     <h3 class="termHeader" id="elective">Elective Courses:</h3>
     {#each electives as elective, i}
-      <h5 class="termHeader">مقرر إختياري {i + 1}:</h5>
+      <h5 class="termHeader">
+        مقرر إختياري {electivesHelper[i]} (اختر عدد {(i + 1) * 2} مادة فقط) :
+      </h5>
       <div class="row">
         {#each courses as course}
           {#if course.term == elective}
