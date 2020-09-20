@@ -57,6 +57,8 @@
         } else {
           if (courseClass == "e" && state === courseStates.PASS) {
             deleteElectiveFromArray(term, passedElectiveCourses);
+          } else if (courseClass == "eArch" && state === courseStates.PASS) {
+            deleteElectiveFromArray(term, passedElectiveCourses);
           }
 
           if (state == courseStates.CLOSED) {
@@ -89,6 +91,8 @@
   export function handleOnClick() {
     if (courseClass == "e") {
       handleElectiveClick();
+    } else if (courseClass == "eArch") {
+      handleElectiveArchClick();
     } else {
       handleClick();
     }
@@ -101,6 +105,30 @@
         return true;
       }
     }
+    return false;
+  }
+  function checkElectiveArch() {
+    let count = 0;
+    for (let e of passedElectiveCourses) {
+      if (e == term) {
+        console.log("Found elective " + term);
+        count++;
+      }
+    }
+    if (term == "e1") {
+      if (count < 2) {
+        return false;
+      } else {
+        return true;
+      }
+    } else if (term == "e2") {
+      if (count < 4) {
+        return false;
+      } else {
+        return true;
+      }
+    }
+
     return false;
   }
   function deleteElectiveFromArray(courseCode, array) {
@@ -138,6 +166,35 @@
       }
     }
   }
+
+  export function handleElectiveArchClick() {
+    if (state == courseStates.CLOSED) {
+      //Handle closed course
+    } else {
+      if (state === courseStates.READY && !checkElectiveArch()) {
+        passCourse();
+        passedElectiveCourses.push(term);
+        dispatch("coursePassed", {
+          courseCode: code,
+          courseSatisfies: satisfies,
+          credit: credit,
+          courseClass: courseClass,
+          term: term,
+        });
+      } else if (state === courseStates.PASS) {
+        failCourse();
+        deleteElectiveFromArray(term, passedElectiveCourses);
+        dispatch("courseFailed", {
+          courseCode: code,
+          courseSatisfies: satisfies,
+          credit: credit,
+          courseClass: courseClass,
+          term: term,
+        });
+      }
+    }
+  }
+
   export function handleClick() {
     if (state == courseStates.CLOSED) {
       //Handle closed course

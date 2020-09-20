@@ -13,6 +13,8 @@
   import AppText from "./AppText.svelte";
   import AppNuc from "./AppNuc.svelte";
   import AppNaval from "./AppNaval.svelte";
+  import AppComputer from "./AppComputer.svelte";
+  import AppArch from "./AppArch.svelte";
 
   let flag = false;
   let flag1 = true;
@@ -27,6 +29,8 @@
     text: false,
     nuc: false,
     naval: false,
+    computer: false,
+    arch: false,
   };
   let initFlags = {
     meca: true,
@@ -38,6 +42,8 @@
     text: true,
     nuc: true,
     naval: true,
+    computer: true,
+    arch: true,
   };
   const btnClasses = { s: "btn-secondary", p: "btn-primary" };
   let btnClass = {
@@ -50,6 +56,8 @@
     text: "btn-secondary",
     nuc: "btn-secondary",
     naval: "btn-secondary",
+    computer: "btn-secondary",
+    arch: "btn-secondary",
   };
   let counts = {
     meca: 0,
@@ -61,6 +69,8 @@
     text: 0,
     nuc: 0,
     naval: 0,
+    computer: 0,
+    arch: 0,
   };
 
   function toggleMeca() {
@@ -177,6 +187,31 @@
     }
     flags.naval = !flags.naval;
   }
+  function toggleComputer() {
+    counts.computer++;
+    if (counts.computer > 1) {
+      initFlags.computer = false;
+    }
+    if (counts.computer % 2 == 0) {
+      btnClass.computer = btnClasses.s;
+    } else {
+      btnClass.computer = btnClasses.p;
+    }
+    flags.computer = !flags.computer;
+  }
+
+  function toggleArch() {
+    counts.arch++;
+    if (counts.arch > 1) {
+      initFlags.arch = false;
+    }
+    if (counts.arch % 2 == 0) {
+      btnClass.arch = btnClasses.s;
+    } else {
+      btnClass.arch = btnClasses.p;
+    }
+    flags.arch = !flags.arch;
+  }
 </script>
 
 <style>
@@ -200,6 +235,12 @@
   <button class="btn {btnClass.text}" on:click={toggleText}> Textile </button>
   <button class="btn {btnClass.nuc}" on:click={toggleNuc}> Nuclear </button>
   <button class="btn {btnClass.naval}" on:click={toggleNaval}> Naval </button>
+  <button class="btn {btnClass.computer}" on:click={toggleComputer}>
+    Computer
+  </button>
+  <button class="btn {btnClass.arch}" on:click={toggleArch}>
+    Architecture
+  </button>
 </div>
 
 <!-- <App {courses} /> -->
@@ -238,6 +279,14 @@
 
 {#if flags.naval}
   <AppNaval flag={initFlags.naval} />
+{/if}
+
+{#if flags.computer}
+  <AppComputer flag={initFlags.computer} />
+{/if}
+
+{#if flags.arch}
+  <AppArch flag={initFlags.arch} />
 {/if}
 
 <!-- 

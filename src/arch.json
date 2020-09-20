@@ -1,0 +1,811 @@
+[{
+        "name": "رياضيات 1",
+        "code": "EMP 011",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 012&EMP 032",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 1",
+        "code": "EMP 021",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 022&CVE x19",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 1",
+        "code": "EMP 031",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "CVE x17",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 1",
+        "code": "EMP 041",
+        "credit": "3",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "EMP 042",
+        "courseClass": "main"
+    },
+    {
+        "name": "دراسات بصرية ",
+        "code": "ARC 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "ARC 111&ARC 141",
+        "courseClass": "main"
+    },
+    {
+        "name": "حاسبات وبرمجة",
+        "code": "CSE 011",
+        "credit": "2",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "حقوق الإنسان ",
+        "code": "HUM 031",
+        "credit": "1",
+        "term": "1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رياضيات 2",
+        "code": "EMP 012",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا 2",
+        "code": "EMP 022",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 021",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "فيزياء 2",
+        "code": "EMP 032",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 011",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "رسم هندسي 2",
+        "code": "EMP 042",
+        "credit": "3",
+        "term": "2",
+        "prerequisites": "EMP 041",
+        "satisfies": "ARC 111&ARC 143",
+        "courseClass": "main"
+    },
+    {
+        "name": "كيمياء هندسية",
+        "code": "CHE 011",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "لغة إنجليزية",
+        "code": "HUM 011",
+        "credit": "1",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ العمارة ",
+        "code": "HUM 022",
+        "credit": "2",
+        "term": "2",
+        "prerequisites": "_",
+        "satisfies": "ARC 131",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم المعماري 1",
+        "code": "ARC 111",
+        "credit": "4",
+        "term": "3",
+        "prerequisites": "EMP 042&ARC 011",
+        "satisfies": "ARC 112",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنشاء المباني 1",
+        "code": "ARC 121",
+        "credit": "3",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "ARC 122",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ العمارة 1",
+        "code": "ARC 131",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "HUM 022",
+        "satisfies": "ARC 233",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظرية الألوان",
+        "code": "ARC 141",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "ARC 011",
+        "satisfies": "ARC 354&ARC x65",
+        "courseClass": "main"
+    },
+    {
+        "name": "الظل والمنظور",
+        "code": "ARC 143",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "EMP 042",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "المساحة للمهندسين المعمارين",
+        "code": "CVE x39",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 1",
+        "code": "ARC 1E1",
+        "credit": "2",
+        "term": "3",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "التصميم المعماري 2",
+        "code": "ARC 112",
+        "credit": "4",
+        "term": "4",
+        "prerequisites": "ARC 111",
+        "satisfies": "ARC 213",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنشاء المباني 2",
+        "code": "ARC 122",
+        "credit": "3",
+        "term": "4",
+        "prerequisites": "ARC 121",
+        "satisfies": "ARC 223",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظريات العمارة 1",
+        "code": "ARC 132",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "ARC 234&ARC x66",
+        "courseClass": "main"
+    },
+    {
+        "name": "دراسات بيئية",
+        "code": "ARC 142",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "تطبيقات الحاسب الآلي في العمارة",
+        "code": "ARC 144",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "ARC x63&ARC x64",
+        "courseClass": "main"
+    },
+    {
+        "name": "الهندسة الانشائية 1",
+        "code": "CVE x19",
+        "credit": "2",
+        "term": "4",
+        "prerequisites": "EMP 021",
+        "satisfies": "CVE x17&CVE x11",
+        "courseClass": "main"
+    },
+    {
+        "name": "مهارات التفاوض وإدارة الوقت ",
+        "code": "HUM x42",
+        "credit": "1",
+        "term": "4",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم المعماري 3",
+        "code": "ARC 213",
+        "credit": "4",
+        "term": "5",
+        "prerequisites": "ARC 112",
+        "satisfies": "ARC 214",
+        "courseClass": "main"
+    },
+    {
+        "name": "إنشاء المباني 3",
+        "code": "ARC 223",
+        "credit": "3",
+        "term": "5",
+        "prerequisites": "ARC 122",
+        "satisfies": "ARC 224",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ العمارة 2",
+        "code": "ARC 233",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "ARC 131",
+        "satisfies": "ARC 335",
+        "courseClass": "main"
+    },
+    {
+        "name": "ميكانيكا التربة والأساسات وخواص المواد",
+        "code": "CVE x17",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "EMP 031&CVE x19",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "أنظمة تقنية 1",
+        "code": "ARC 251",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "اقتصاد هندسي",
+        "code": "BUS x21",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 2",
+        "code": "ARC 2E2",
+        "credit": "2",
+        "term": "5",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "التصميم المعماري 4",
+        "code": "ARC 214",
+        "credit": "4",
+        "term": "6",
+        "prerequisites": "ARC 213",
+        "satisfies": "ARC 315&ARC 354",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميمات التنفيذية 1",
+        "code": "ARC 224",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "ARC 223",
+        "satisfies": "ARC 325",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظريات العمارة 2",
+        "code": "ARC 234",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "ARC 132",
+        "satisfies": "ARC 338",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ التخطيط وتنسيق المواقع",
+        "code": "ARC 236",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "ARC 337",
+        "courseClass": "main"
+    },
+    {
+        "name": "أنظمة تقنية 2",
+        "code": "ARC 252",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الاحتمالات والإحصاء",
+        "code": "EMP x18",
+        "credit": "3",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "ARC 402",
+        "courseClass": "main"
+    },
+    {
+        "name": "قضايا معاصرة ( اختياري ) ",
+        "code": "HUM xE2",
+        "credit": "2",
+        "term": "6",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم المعماري 5",
+        "code": "ARC 315",
+        "credit": "4",
+        "term": "7",
+        "prerequisites": "ARC 214",
+        "satisfies": "ARC 316",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميمات التنفيذية 2",
+        "code": "ARC 325",
+        "credit": "3",
+        "term": "7",
+        "prerequisites": "ARC 224",
+        "satisfies": "ARC 326",
+        "courseClass": "main"
+    },
+    {
+        "name": "تاريخ العمارة 3",
+        "code": "ARC 335",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "ARC 233",
+        "satisfies": "ARC 439&ARC 473",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظريات التخطيط العمراني والاسكان ",
+        "code": "ARC 337",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "ARC 236",
+        "satisfies": "ARC 353&ARC 486",
+        "courseClass": "main"
+    },
+    {
+        "name": "القانون والاخلاقيات في الهندسة",
+        "code": "HUM x32",
+        "credit": "1",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الخرسانة المسلحة والمنشأت المعدنية",
+        "code": "CVE x11",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "CVE x19",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة الأعمال ( اختياري ) ",
+        "code": "BUS xE1",
+        "credit": "2",
+        "term": "7",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم المعماري 6",
+        "code": "ARC 316",
+        "credit": "4",
+        "term": "8",
+        "prerequisites": "ARC 315",
+        "satisfies": "ARC 417",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميمات التنفيذية 3",
+        "code": "ARC 326",
+        "credit": "3",
+        "term": "8",
+        "prerequisites": "ARC 325",
+        "satisfies": "ARC 427",
+        "courseClass": "main"
+    },
+    {
+        "name": "نظريات العمارة 3",
+        "code": "ARC 338",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "ARC 234",
+        "satisfies": "ARC 439&ARC 472&ARC 474&ARC 477",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم الحضرى",
+        "code": "ARC 353",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "ARC 337",
+        "satisfies": "ARC 471&ARC 481&ARC 484&ARC 485&ARC 487",
+        "courseClass": "main"
+    },
+    {
+        "name": "إدارة مشروعات",
+        "code": "BUS x31",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم الداخلي",
+        "code": "ARC 354",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "ARC 214&ARC 141",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة هندسية ( اختياري ) ",
+        "code": "ECL xE1",
+        "credit": "2",
+        "term": "8",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "التصميم المعماري 7",
+        "code": "ARC 417",
+        "credit": "4",
+        "term": "9",
+        "prerequisites": "ARC 316",
+        "satisfies": "ARC 402",
+        "courseClass": "main"
+    },
+    {
+        "name": "التفاصيل التنفيذية",
+        "code": "ARC 427",
+        "credit": "3",
+        "term": "9",
+        "prerequisites": "ARC 326",
+        "satisfies": "ARC 402",
+        "courseClass": "main"
+    },
+    {
+        "name": "بحث مشروع التخرج",
+        "code": "ARC 401",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "project"
+    },
+    {
+        "name": "مقرر اختياري 3 ( من التخصص ) ",
+        "code": "ARC 4E3",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "النقد المعماري",
+        "code": "ARC 439",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "ARC 335&ARC 338",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "كتابة تقنية",
+        "code": "TRN x21",
+        "credit": "2",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "ثقافة عامة ( اختياري ) ",
+        "code": "HUM xE1",
+        "credit": "1",
+        "term": "9",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مشروع التخرج",
+        "code": "ARC 402",
+        "credit": "7",
+        "term": "10",
+        "prerequisites": "ARC 417&ARC 427&EMP x18",
+        "satisfies": "_",
+        "courseClass": "project2"
+    },
+    {
+        "name": "ممارسة المهنة والاخلاقيات",
+        "code": "ARC 454",
+        "credit": "1",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "مقرر اختياري 4 ( من التخصص )",
+        "code": "ARC 4E4",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 5 ( من التخصص )",
+        "code": "ARC 4E5",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مقرر اختياري 6 ( من خارج التخصص ) ",
+        "code": "ARC 4E6",
+        "credit": "2",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "elective"
+    },
+    {
+        "name": "مهارات الاتصال والعرض",
+        "code": "HUM x41",
+        "credit": "1",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "العقود والكميات والمواصفات ",
+        "code": "ECL x21",
+        "credit": "1",
+        "term": "10",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "main"
+    },
+    {
+        "name": "الاظهار المعماري : الرسم و المجسمات",
+        "code": "ARC x61",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "التصوير المعماري",
+        "code": "ARC x62",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "تصميم الجرافيك",
+        "code": "ARC x63",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "ARC 144",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "تطبيقات الحاسب الآلي في العمارة 2",
+        "code": "ARC x64",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "ARC 144",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "أنماط التصميم الداخلي",
+        "code": "ARC x65",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "ARC 141",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "عمارة البحر المتوسط ",
+        "code": "ARC x66",
+        "credit": "2",
+        "term": "e1",
+        "prerequisites": "ARC 132",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "تنسيق المواقع",
+        "code": "ARC 471",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 353",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "العمارة المحلية",
+        "code": "ARC 472",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 338",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "الحفاظ على المباني التاريخية",
+        "code": "ARC 473",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 335",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "منهجيات التصميم والتقييم",
+        "code": "ARC 474",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 338",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "المباني الذكية",
+        "code": "ARC 475",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "نمذجة معلومات البناء BIM",
+        "code": "ARC 476",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "إعادة استخدام المباني",
+        "code": "ARC 477",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 338",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "تخطيط المواقع",
+        "code": "ARC 481",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 353",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "العمارة والعمران الإقليمي",
+        "code": "ARC 482",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "الحفاظ الحضرى",
+        "code": "ARC 483",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "_",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "التشكل والسياق الحضرى",
+        "code": "ARC 484",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 353",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "المدن الذكية",
+        "code": "ARC 485",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 353",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "نظم المعلومات الجغرافية",
+        "code": "ARC 486",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 337",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    },
+    {
+        "name": "التطوير الحضري",
+        "code": "ARC 487",
+        "credit": "2",
+        "term": "e2",
+        "prerequisites": "ARC 353",
+        "satisfies": "_",
+        "courseClass": "eArch"
+    }
+]
